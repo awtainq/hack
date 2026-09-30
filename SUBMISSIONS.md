@@ -40,3 +40,5 @@ cp forecast_2024_v10_floor100.csv forecast_2024.csv
 cp forecast_2024_v12_gbdt_ema.csv forecast_2024.csv
 ```
 Выходной файл: `forecast_2024_v12_gbdt_ema.csv` (сумма 12 516.95, выравнивание по неделям `iso_week` и дням недели `dow` с весом затухания $\alpha=0.15$).
+
+| **V13** | *Готов к отправке* | `forecast_2024_v13_saturday_aware.csv` | **Полноценный учет суббот по фазам и режимам приемной комиссии**. Валидация на 2023: RMSLE суббот упал с 1.228 до 0.649 (-0.57), общий RMSLE 2023 упал с 0.647 до 0.522! | `python reproducers/v13_saturday_aware.py` |
