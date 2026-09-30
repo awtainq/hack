@@ -1,0 +1,6 @@
+.venv/
+catboost_info/
+.DS_Store
+__pycache__/
+*.pyc
+abitur_stage1/*.xlsx
