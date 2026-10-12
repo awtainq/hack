@@ -17,9 +17,8 @@
 ## 🏆 Таблица сабмитов (Актуальный Public Leaderboard)
 
 | Версия | Актуальный Public Score | Исходный скор (до пересчета) | Файл прогноза | Описание метода | Скрипт воспроизведения |
-|---|---|---|---|---|---|
-| **V28** | **Готов к отправке (Рекомендуемый)** | — | `forecast_2024_v28_zero_sunday.csv` | **Zero-Sunday & Modern 2023-Aligned Engine**: Прорыв на 0.55. Стратегия 0 на 10 воскресеньях (в 2023 году 7/10 нулей) и 3 субботах, устраняющая лог-штраф RMSLE. Волна дипломов (неделя 26) и понедельничный импульс `mon_july`. Tri-Ensemble (70% LGBM + 20% HGBM + 10% CB). Сумма 12 401. | `python reproducers/v28_zero_sunday_engine.py` |
-| **V10** | **`0.58787`** 🌟 *(Текущий ТОП-1)* | `0.57961` | `forecast_2024_v10_floor100.csv` | Чистый ансамбль LightGBM (3 seed) + HistGBM (75/25), пол 1.00 на 13 тихих днях. Сумма 12 434. | `python reproducers/v10_score_0_57961.py` |
+| **V28** | **`0.55157`** 🏆 *(Абсолютный ТОП-1)* | — | `forecast_2024_v28_zero_sunday.csv` | **Zero-Sunday & Modern 2023-Aligned Engine**: Прорыв на 0.55! Стратегия 0 на 10 воскресеньях (в 2023 году 7/10 нулей) и 3 субботах, устраняющая лог-штраф RMSLE. Волна дипломов (неделя 26) и понедельничный импульс `mon_july`. Tri-Ensemble (70% LGBM + 20% HGBM + 10% CB). Сумма 12 401. | `python reproducers/v28_zero_sunday_engine.py` |
+| **V10** | `0.58787` | `0.57961` | `forecast_2024_v10_floor100.csv` | Чистый ансамбль LightGBM (3 seed) + HistGBM (75/25), пол 1.00 на 13 тихих днях. Сумма 12 434. | `python reproducers/v10_score_0_57961.py` |
 | **V24** | `0.58977` 🚀 | — | `forecast_2024_v24_tri_ensemble.csv` | Regularized Tri-Ensemble (LGBM 70% + HGBM 20% + CatBoost 10%), `leaves=14`, `colsample=0.90`, пол 1.00. Прорыв к ТОП-1. | `python reproducers/v24_regularized_tri_ensemble.py` |
 | **V25** | `0.59130` | — | `forecast_2024_v25_hybrid_tri_ema.csv` | Hybrid Tri-Ensemble + Aligned Seasonal EMA (8%). Календарный сдвиг недель дал небольшой шум. | `python reproducers/v25_hybrid_ema_tri.py` |
 | **V27** | `0.59663` | — | `forecast_2024_v27_autonomous_bell_tri.csv` | Continuous Saturday Bell & Tri-Ensemble (без знаковых расстояний показал небольшую потерю точности). | `python reproducers/v27_autonomous_bell_tri.py` |
