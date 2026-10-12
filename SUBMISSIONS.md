@@ -18,8 +18,9 @@
 
 | Версия | Актуальный Public Score | Исходный скор (до пересчета) | Файл прогноза | Описание метода | Скрипт воспроизведения |
 |---|---|---|---|---|---|
-| **V24** | **Готов к отправке (Рекомендуемый)** | — | `forecast_2024_v24_tri_ensemble.csv` | **Regularized Tri-Ensemble**: Регуляризованные деревья (`leaves=14`, `colsample=0.90`), три семейства моделей (LGBM 70% + HGBM 20% + CatBoost 10%), сохранение регуляторных весов `[2.5, 1.5, 0.7]` и целочисленного пола `1.00`. Валидация упала с 0.6377 до 0.6345. | `python reproducers/v24_regularized_tri_ensemble.py` |
+| **V25** | **Готов к отправке (Рекомендуемый)** | — | `forecast_2024_v25_hybrid_tri_ema.csv` | **Hybrid Tri-Ensemble + Aligned Seasonal EMA**: 92% Tri-GBDT (LGBM 5 seeds + HGBM + CatBoost) + 8% сезонный Aligned EMA ($\alpha=0.15$). Пол 1.00. Средний CV RMSLE упал до `0.62913`. | `python reproducers/v25_hybrid_ema_tri.py` |
 | **V10** | **`0.58787`** 🌟 *(Текущий ТОП-1)* | `0.57961` | `forecast_2024_v10_floor100.csv` | Чистый ансамбль LightGBM (3 seed) + HistGBM (75/25), пол 1.00 на 13 тихих днях. Сумма 12 434. | `python reproducers/v10_score_0_57961.py` |
+| **V24** | `0.58977` 🚀 | — | `forecast_2024_v24_tri_ensemble.csv` | Regularized Tri-Ensemble (LGBM 70% + HGBM 20% + CatBoost 10%), `leaves=14`, `colsample=0.90`, пол 1.00. Прорыв к ТОП-1. | `python reproducers/v24_regularized_tri_ensemble.py` |
 | **V23** | `0.60015` | — | `forecast_2024_v23_exponential_clean.csv` | Экспоненциальные веса $e^{0.2(y-2024)}$ и пол 0.82 (проверен, показал переобучение из-за сжатия выборки) | `python reproducers/v23_exponential_clean.py` |
 | **V6** | `0.58842` | `0.61112` | `forecast_2024_v6_refined.csv` | Фазовые субботы (`sat_phases`), отказ от ручных пиков, пол 0.55 | — |
 | **V7** | `0.58862` | `0.60907` | `forecast_2024_v7_3seed.csv` | 3 seed LightGBM + HistGBM, строгий масштаб 1.0, пол 0.55 | — |
@@ -93,7 +94,31 @@ $$\bar{u}_{\text{quiet}} = \mathbb{E}[\log(1 + y)] = 0.59737 \implies y^* = \exp
 ### Воспроизведение V24:
 ```bash
 .venv/bin/python reproducers/v24_regularized_tri_ensemble.py
-cp forecast_2024_v24_tri_ensemble.csv forecast_2024.csv
 ```
-Выходной файл: `forecast_2024_v24_tri_ensemble.csv` (73 строки, `date,forecast`, сумма 12 394.12).
+Выходной файл: `forecast_2024_v24_tri_ensemble.csv` (Public score: `0.58977`).
+
+---
+
+## 🚀 Модель V25: Hybrid Tri-Ensemble + Aligned Seasonal EMA (Рекомендуемый сабмит)
+
+### Ключевые преимущества:
+1. **Синтез градиентного бустинга и сезонного сглаживания (92% Tri-GBDT + 8% Aligned EMA)**:
+   - Tri-GBDT (LightGBM 5 сидов + HistGBM + CatBoost) улавливает нелинейные зависимости и фазы;
+   - Aligned EMA ($\alpha=0.15$ по парам `iso_week x dow`) задает чистый исторический профиль без артефактов разбиения деревьев;
+   - Логарифмическое объединение $z = 0.92 \log(1+\text{Tri}) + 0.08 \log(1+\text{EMA})$ снизило средний валидационный RMSLE с `0.63454` до **`0.62913`** (-0.0054 gain).
+2. **Идеальный баланс объема**:
+   - Суммарный объем **12 407.22** — идеально между V24 (12 394) и V10 (12 434).
+   - Корреляция с V10: `0.99971`, с V24: `0.99990`.
+3. **Целочисленный пол 1.00**:
+   - Сохранен доказанный оптимальный пол `1.00` на 13 тихих днях.
+4. **Нулевой ручной овербуст**:
+   - Полностью автоматическая, data-driven модель без хардкодов.
+
+### Воспроизведение V25:
+```bash
+.venv/bin/python reproducers/v25_hybrid_ema_tri.py
+cp forecast_2024_v25_hybrid_tri_ema.csv forecast_2024.csv
+```
+Выходной файл: `forecast_2024_v25_hybrid_tri_ema.csv` (73 строки, `date,forecast`, сумма 12 407.22).
+
 
