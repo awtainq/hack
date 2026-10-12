@@ -18,9 +18,10 @@
 
 | Версия | Актуальный Public Score | Исходный скор (до пересчета) | Файл прогноза | Описание метода | Скрипт воспроизведения |
 |---|---|---|---|---|---|
-| **V25** | **Готов к отправке (Рекомендуемый)** | — | `forecast_2024_v25_hybrid_tri_ema.csv` | **Hybrid Tri-Ensemble + Aligned Seasonal EMA**: 92% Tri-GBDT (LGBM 5 seeds + HGBM + CatBoost) + 8% сезонный Aligned EMA ($\alpha=0.15$). Пол 1.00. Средний CV RMSLE упал до `0.62913`. | `python reproducers/v25_hybrid_ema_tri.py` |
+| **V27** | **Готов к отправке (Рекомендуемый)** | — | `forecast_2024_v27_autonomous_bell_tri.csv` | **Autonomous Continuous Bell & Tri-Ensemble**: Автономная непрерывная модель с нуля. Колокол суббот `sat_activity_bell`, RBF-ядра ключевых дат, гармоники Фурье. 70% LGBM (5 seeds) + 20% HGBM + 10% CatBoost. Без if-else. Сумма 12 490. | `python reproducers/v27_autonomous_bell_tri.py` |
 | **V10** | **`0.58787`** 🌟 *(Текущий ТОП-1)* | `0.57961` | `forecast_2024_v10_floor100.csv` | Чистый ансамбль LightGBM (3 seed) + HistGBM (75/25), пол 1.00 на 13 тихих днях. Сумма 12 434. | `python reproducers/v10_score_0_57961.py` |
 | **V24** | `0.58977` 🚀 | — | `forecast_2024_v24_tri_ensemble.csv` | Regularized Tri-Ensemble (LGBM 70% + HGBM 20% + CatBoost 10%), `leaves=14`, `colsample=0.90`, пол 1.00. Прорыв к ТОП-1. | `python reproducers/v24_regularized_tri_ensemble.py` |
+| **V25** | `0.59130` | — | `forecast_2024_v25_hybrid_tri_ema.csv` | Hybrid Tri-Ensemble + Aligned Seasonal EMA (8%). Календарный сдвиг недель дал небольшой шум. | `python reproducers/v25_hybrid_ema_tri.py` |
 | **V23** | `0.60015` | — | `forecast_2024_v23_exponential_clean.csv` | Экспоненциальные веса $e^{0.2(y-2024)}$ и пол 0.82 (проверен, показал переобучение из-за сжатия выборки) | `python reproducers/v23_exponential_clean.py` |
 | **V6** | `0.58842` | `0.61112` | `forecast_2024_v6_refined.csv` | Фазовые субботы (`sat_phases`), отказ от ручных пиков, пол 0.55 | — |
 | **V7** | `0.58862` | `0.60907` | `forecast_2024_v7_3seed.csv` | 3 seed LightGBM + HistGBM, строгий масштаб 1.0, пол 0.55 | — |
@@ -117,8 +118,35 @@ $$\bar{u}_{\text{quiet}} = \mathbb{E}[\log(1 + y)] = 0.59737 \implies y^* = \exp
 ### Воспроизведение V25:
 ```bash
 .venv/bin/python reproducers/v25_hybrid_ema_tri.py
-cp forecast_2024_v25_hybrid_tri_ema.csv forecast_2024.csv
 ```
-Выходной файл: `forecast_2024_v25_hybrid_tri_ema.csv` (73 строки, `date,forecast`, сумма 12 407.22).
+Выходной файл: `forecast_2024_v25_hybrid_tri_ema.csv` (Public score: `0.59130`).
+
+---
+
+## 🚀 Модель V27: Autonomous Continuous Bell & Tri-Ensemble (Рекомендуемый сабмит)
+
+### Ключевые преимущества:
+1. **Полная независимость (построена с нуля, без оглядки на прошлые сабмиты)**:
+   - Не использует бленды или усреднения со старыми файлами.
+2. **Непрерывный колокол суббот (`sat_activity_bell`)**:
+   - `sat_activity_bell = is_saturday * exp(-0.5 * ((t - peak_date) / 12)^2)`.
+   - Непрерывно задает активность работы приемной комиссии в субботы: пик в июле (~294, ~226) и плавное угасание в августе до 0 без дискретных `if`.
+3. **Непрерывные RBF-ядра и метрики 5 регуляторных дат**:
+   - Дипломы (28 июня), общий пик (8 июля), дедлайн бакалавриата (25 июля), согласия (3 августа), приказы (9 августа).
+   - Гармоники прогресса кампании Фурье ($k=1, 2, 3$).
+4. **Сбалансированный Tri-Ensemble трех семейств**:
+   - LightGBM (5 разнообразных сидов, `num_leaves=14`, `colsample=0.90`, вес 70%);
+   - HistGradientBoosting (`max_leaf_nodes=14`, вес 20%);
+   - CatBoost (`depth=4`, `l2_reg=4`, вес 10%).
+5. **Целочисленный пол 1.00**:
+   - Сохранен точный пол `1.00` на 13 тихих днях.
+
+### Воспроизведение V27:
+```bash
+.venv/bin/python reproducers/v27_autonomous_bell_tri.py
+cp forecast_2024_v27_autonomous_bell_tri.csv forecast_2024.csv
+```
+Выходной файл: `forecast_2024_v27_autonomous_bell_tri.csv` (73 строки, `date,forecast`, сумма 12 490.07).
+
 
 
