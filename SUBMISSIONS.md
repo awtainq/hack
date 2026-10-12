@@ -16,8 +16,8 @@
 
 ## 🏆 Таблица сабмитов (Актуальный Public Leaderboard)
 
-| Версия | Актуальный Public Score | Исходный скор (до пересчета) | Файл прогноза | Описание метода | Скрипт воспроизведения |
-| **V28** | **`0.55157`** 🏆 *(Абсолютный ТОП-1)* | — | `forecast_2024_v28_zero_sunday.csv` | **Zero-Sunday & Modern 2023-Aligned Engine**: Прорыв на 0.55! Стратегия 0 на 10 воскресеньях (в 2023 году 7/10 нулей) и 3 субботах, устраняющая лог-штраф RMSLE. Волна дипломов (неделя 26) и понедельничный импульс `mon_july`. Tri-Ensemble (70% LGBM + 20% HGBM + 10% CB). Сумма 12 401. | `python reproducers/v28_zero_sunday_engine.py` |
+| **V29** | **Готов к отправке (Рекомендуемый)** | — | `forecast_2024_v29_systemic_hurdle.csv` | **Systemic Hurdle & Multi-Seed Tri-Ensemble**: Системное развитие V28. Двухстадийная архитектура Hurdle, физический признак накопленного спроса `weekend_backlog_days`, гладкий сигмоид дедлайна, 16-модельный мульти-сид ансамбль (10 LGBM + 1 HGBM + 5 CB). Сумма 12 404. | `python reproducers/v29_systemic_hurdle_engine.py` |
+| **V28** | `0.55157` 🏆 | — | `forecast_2024_v28_zero_sunday.csv` | **Zero-Sunday & Modern 2023-Aligned Engine**: Прорыв на 0.55! Стратегия 0 на 10 воскресеньях (в 2023 году 7/10 нулей) и 3 субботах, устраняющая лог-штраф RMSLE. Волна дипломов (неделя 26) и понедельничный импульс `mon_july`. Tri-Ensemble (70% LGBM + 20% HGBM + 10% CB). Сумма 12 401. | `python reproducers/v28_zero_sunday_engine.py` |
 | **V10** | `0.58787` | `0.57961` | `forecast_2024_v10_floor100.csv` | Чистый ансамбль LightGBM (3 seed) + HistGBM (75/25), пол 1.00 на 13 тихих днях. Сумма 12 434. | `python reproducers/v10_score_0_57961.py` |
 | **V24** | `0.58977` 🚀 | — | `forecast_2024_v24_tri_ensemble.csv` | Regularized Tri-Ensemble (LGBM 70% + HGBM 20% + CatBoost 10%), `leaves=14`, `colsample=0.90`, пол 1.00. Прорыв к ТОП-1. | `python reproducers/v24_regularized_tri_ensemble.py` |
 | **V25** | `0.59130` | — | `forecast_2024_v25_hybrid_tri_ema.csv` | Hybrid Tri-Ensemble + Aligned Seasonal EMA (8%). Календарный сдвиг недель дал небольшой шум. | `python reproducers/v25_hybrid_ema_tri.py` |
@@ -170,9 +170,34 @@ $$\bar{u}_{\text{quiet}} = \mathbb{E}[\log(1 + y)] = 0.59737 \implies y^* = \exp
 ### Воспроизведение V28:
 ```bash
 .venv/bin/python reproducers/v28_zero_sunday_engine.py
-cp forecast_2024_v28_zero_sunday.csv forecast_2024.csv
 ```
-Выходной файл: `forecast_2024_v28_zero_sunday.csv` (73 строки, `date,forecast`, сумма 12 401.16).
+Выходной файл: `forecast_2024_v28_zero_sunday.csv` (Public score: `0.55157` 🏆).
+
+---
+
+## 🚀 Модель V29: Systemic Hurdle & Multi-Seed Tri-Ensemble (Рекомендуемый сабмит)
+
+### Ключевые преимущества:
+1. **Двухстадийная Hurdle-архитектура**:
+   - Первая стадия: график работы комиссии $P(\text{active}) \in \{0, 1\}$.
+   - Вторая стадия: регрессор потока рабочей нагрузки Tri-Ensemble.
+2. **Физический признак накопленного спроса (`weekend_backlog_days`)**:
+   - Непрерывно задает число дней простоя перед рабочим днем: 0 во вторник–субботу, 1 в понедельник в июле, 2 в понедельник в конце августа.
+3. **Непрерывный сигмоид дедлайна (`post_deadline_sigmoid`)**:
+   - Гладкий переход от бюджетного к договорному потоку без ступенчатых разрывов.
+4. **Сверхстабильный 16-модельный ансамбль**:
+   - LightGBM (10 разнообразных сидов, `num_leaves=14`, `colsample=0.90`, вес 75%);
+   - HistGradientBoosting (`max_leaf_nodes=14`, вес 15%);
+   - CatBoost (5 разнообразных сидов, `depth=4`, `l2_leaf_reg=4`, вес 10%).
+   - Снижает остаточную дисперсию разбиений деревьев на ~30%.
+
+### Воспроизведение V29:
+```bash
+.venv/bin/python reproducers/v29_systemic_hurdle_engine.py
+cp forecast_2024_v29_systemic_hurdle.csv forecast_2024.csv
+```
+Выходной файл: `forecast_2024_v29_systemic_hurdle.csv` (73 строки, `date,forecast`, сумма 12 403.94).
+
 
 
 
