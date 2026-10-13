@@ -16,6 +16,7 @@
 
 ## 🏆 Таблица сабмитов (Актуальный Public Leaderboard)
 
+| **V30** | **Готов к отправке (Рекомендуемый)** | — | `forecast_2024_v30_optimal_blend.csv` | **Analytically Optimized Tri-Ensemble (60/10/30)**: Аналитическая оптимизация весов блендинга на LOYO CV (2021-2023). Оптимальные веса: 60% LGBM + 10% HGBM + 30% CatBoost. 18-сидовый ансамбль (10 LGB + 3 HGB + 5 CB). Снижает OOF RMSLE с 0.6367 до 0.6340 (-0.00265). Сумма 12 263. | `python reproducers/v30_optimal_blend_engine.py` |
 | **V28** | `0.55157` 🏆 | — | `forecast_2024_v28_zero_sunday.csv` | **Zero-Sunday & Modern 2023-Aligned Engine**: Прорыв на 0.55! Стратегия 0 на 10 воскресеньях (в 2023 году 7/10 нулей) и 3 субботах, устраняющая лог-штраф RMSLE. Волна дипломов (неделя 26) и понедельничный импульс `mon_july`. Tri-Ensemble (70% LGBM + 20% HGBM + 10% CB). Сумма 12 401. | `python reproducers/v28_zero_sunday_engine.py` |
 | **V29** | `0.55623` | — | `forecast_2024_v29_systemic_hurdle.csv` | **Systemic Hurdle & Multi-Seed Tri-Ensemble**: Системное развитие V28. Двухстадийная архитектура Hurdle, физический признак накопленного спроса `weekend_backlog_days`, гладкий сигмоид дедлайна, 16-модельный мульти-сид ансамбль (10 LGBM + 1 HGBM + 5 CB). Сумма 12 404. | `python reproducers/v29_systemic_hurdle_engine.py` |
 | **V10** | `0.58787` | `0.57961` | `forecast_2024_v10_floor100.csv` | Чистый ансамбль LightGBM (3 seed) + HistGBM (75/25), пол 1.00 на 13 тихих днях. Сумма 12 434. | `python reproducers/v10_score_0_57961.py` |
