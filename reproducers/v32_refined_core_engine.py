@@ -162,3 +162,4 @@ def generate_v32_forecast():
 
 if __name__ == '__main__':
     generate_v32_forecast()
+

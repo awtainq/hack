@@ -234,3 +234,4 @@ def generate_v41_forecast() -> pd.DataFrame:
 
 if __name__ == "__main__":
     generate_v41_forecast()
+

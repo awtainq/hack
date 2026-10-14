@@ -155,3 +155,4 @@ def generate_v28_forecast():
 
 if __name__ == '__main__':
     generate_v28_forecast()
+

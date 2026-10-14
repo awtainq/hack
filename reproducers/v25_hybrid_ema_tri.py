@@ -148,3 +148,4 @@ def generate_v25_forecast():
 
 if __name__ == '__main__':
     generate_v25_forecast()
+

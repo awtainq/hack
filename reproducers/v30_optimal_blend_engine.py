@@ -160,3 +160,4 @@ def generate_v30_forecast():
 
 if __name__ == '__main__':
     generate_v30_forecast()
+

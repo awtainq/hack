@@ -165,3 +165,4 @@ def generate_v31_forecast():
 
 if __name__ == '__main__':
     generate_v31_forecast()
+

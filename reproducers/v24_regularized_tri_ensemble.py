@@ -131,3 +131,4 @@ def generate_v24_forecast():
 
 if __name__ == '__main__':
     generate_v24_forecast()
+
