@@ -9,12 +9,16 @@ months ahead; for history they are recovered from the data as the last day of th
 for the target year they are passed explicitly. SPbGEU 2024: bachelor 07-25 (federal deadline),
 budget master's 07-29 17:00 (t.me/askmag/121). SPbGEU 2026 rules: master's 08-01.
 
-Backtest (each year predicted from earlier years only, Sundays forced to 0): RMSLE 0.453 mean over
-2017-2019 and 2021-2023, vs 0.488 for clean_blend.py (0.52 public) and 0.505 for clean_baseline.py.
+Schedule: Sundays are closed. Saturdays are closed by a majority vote of earlier years (era-weighted)
+within their slot: first Saturday of the campaign / August up to 08-21 / after 08-21 / July. For 2024
+this closes 06-22, 08-24, 08-31. An official schedule can be passed with --closed instead.
+
+Backtest (each year predicted from earlier years only): RMSLE 0.453 with the true schedule and 0.533
+with the history rule, mean over 2017-2019 and 2021-2023; clean_blend.py: 0.488 with the true schedule.
+Public 2024: 0.458.
 
   python reproducers/clean_deadline_blend.py backtest
-  python reproducers/clean_deadline_blend.py 2024 --bak-end 07-25 --mag-end 07-29 \
-      --closed 2024-06-22,2024-08-24,2024-08-31
+  python reproducers/clean_deadline_blend.py 2024 --bak-end 07-25 --mag-end 07-29
 """
 
 import argparse
@@ -103,6 +107,10 @@ def daily_grid(reg_path: Path, last_year: int, target_ends: dict) -> pd.DataFram
     }
     for k, v in flags.items():
         g[k] = v.astype(int)
+    sat_n = g[g["dow"] == 5].groupby("year").cumcount().reindex(g.index)
+    md = g["date"].dt.strftime("%m-%d")
+    g["sat_slot"] = np.select([sat_n == 0, (g["dow"] == 5) & (md > "08-21"), (g["dow"] == 5) & (md >= "08-01"), g["dow"] == 5],
+                              ["first", "late", "aug_mid", "july"], "")
     g["sin_prog"] = np.sin(np.pi * g["progress"])
     g["sin_2prog"] = np.sin(2 * np.pi * g["progress"])
     g["cos_prog"] = np.cos(np.pi * g["progress"])
@@ -111,18 +119,30 @@ def daily_grid(reg_path: Path, last_year: int, target_ends: dict) -> pd.DataFram
     return g
 
 
-def era_weights(tr: pd.DataFrame) -> np.ndarray:
+def era_map(tr: pd.DataFrame) -> dict:
     """Per-year weight from regime stats: EPGU era > standardized 2017-2019 > legacy; shifted campaigns down."""
-    stats = tr.groupby("year").apply(lambda s: pd.Series({
-        "july": s.loc[s["month"] == 7, "y"].sum() / max(1.0, s["y"].sum()),
-        "epgu": s["epgu"].sum() / max(1.0, s["y"].sum()),
-    }))
+    total = tr.groupby("year")["y"].sum().clip(lower=1.0)
+    stats = pd.DataFrame({"july": tr[tr["month"] == 7].groupby("year")["y"].sum() / total,
+                          "epgu": tr.groupby("year")["epgu"].sum() / total})
     normal_july = stats.loc[stats["july"] > 0.5, "july"].median()
     fidelity = np.exp(-18.0 * np.maximum(0.0, normal_july - stats["july"]) ** 2)
     base = np.where(stats["epgu"] > 0.01, 2.5 * fidelity,
                     np.where((stats.index >= 2017) & (fidelity > 0.8), 1.5 * fidelity,
                              np.where(fidelity <= 0.8, 0.4, 0.7)))
-    return tr["year"].map(dict(zip(stats.index, base))).to_numpy(float)
+    return dict(zip(stats.index, base))
+
+
+def era_weights(tr: pd.DataFrame) -> np.ndarray:
+    return tr["year"].map(era_map(tr)).to_numpy(float)
+
+
+def closed_from_history(tr: pd.DataFrame, te: pd.DataFrame) -> list:
+    """Saturdays whose slot had zero applications in most earlier years (era-weighted, 2020 excluded)."""
+    sat = tr[(tr["dow"] == 5) & (tr["year"] != 2020)]
+    w = sat["year"].map(era_map(tr))
+    p_zero = (w * (sat["y"] == 0)).groupby(sat["sat_slot"]).sum() / w.groupby(sat["sat_slot"]).sum()
+    closed = te["sat_slot"].map(lambda s: bool(s) and p_zero.get(s, 0.0) > 0.5)
+    return list(te.loc[closed, "date"].dt.strftime("%Y-%m-%d"))
 
 
 def fit_mean(make, tr, te, seeds):
@@ -143,11 +163,14 @@ def hgb(s):
     return HistGradientBoostingRegressor(max_iter=130, learning_rate=0.035, max_leaf_nodes=14, min_samples_leaf=4, random_state=s * 31 + 42)
 
 
-def forecast_log(tr, te, closed_dates):
+def predict_open_log(tr, te):
     open_tr = tr[tr["y"] > 0]
     z_open = np.mean([fit_mean(lgb, open_tr, te, 5), fit_mean(cat, open_tr, te, 3), fit_mean(hgb, open_tr, te, 2)], axis=0)
     z_all = fit_mean(cat, tr, te, 3)
-    z = np.clip(W_OPEN * z_open + (1 - W_OPEN) * z_all, 0, None)
+    return np.clip(W_OPEN * z_open + (1 - W_OPEN) * z_all, 0, None)
+
+
+def apply_schedule(te, z, closed_dates):
     closed = te["date"].dt.strftime("%Y-%m-%d").isin(closed_dates).to_numpy() | (te["dow"] == 6).to_numpy()
     return np.where(closed, 0.0, z)
 
@@ -157,11 +180,15 @@ def backtest(reg_path: Path):
     for ty in BACKTEST_YEARS:
         g = daily_grid(reg_path, ty, target_ends={})  # test-year ends recovered from data, as if read from its rules
         tr, te = g[g["year"] < ty], g[g["year"] == ty].reset_index(drop=True)
-        closed = set(te.loc[te["y"] == 0, "date"].dt.strftime("%Y-%m-%d"))  # schedule known in advance
-        rows.append({"year": ty, "rmsle": float(np.sqrt(np.mean((te["z"] - forecast_log(tr, te, closed)) ** 2)))})
+        z = predict_open_log(tr, te)
+        true_closed = list(te.loc[te["y"] == 0, "date"].dt.strftime("%Y-%m-%d"))
+        weekday_closed = list(te.loc[(te["y"] == 0) & (te["dow"] < 5), "date"].dt.strftime("%Y-%m-%d"))
+        rmsle = lambda closed: float(np.sqrt(np.mean((te["z"] - apply_schedule(te, z, closed)) ** 2)))
+        rows.append({"year": ty, "schedule_known": rmsle(true_closed),
+                     "schedule_from_history": rmsle(closed_from_history(tr, te) + weekday_closed)})
     r = pd.DataFrame(rows)
     print(r.round(4).to_string(index=False))
-    print(f"mean: {r['rmsle'].mean():.4f}")
+    print("mean:", r[["schedule_known", "schedule_from_history"]].mean().round(4).to_dict())
 
 
 def main():
@@ -169,7 +196,7 @@ def main():
     ap.add_argument("target", help="'backtest' or the forecast year")
     ap.add_argument("--bak-end", default="07-25", help="last day of bachelor intake (MM-DD)")
     ap.add_argument("--mag-end", default=None, help="last day of budget master's intake (MM-DD), from the admission rules")
-    ap.add_argument("--closed", default="", help="comma-separated closed dates; Sundays are always closed")
+    ap.add_argument("--closed", default=None, help="official closed dates, comma-separated; default: Sundays + history rule")
     ap.add_argument("--reg", default=str(REG_FILE))
     ap.add_argument("--out", default=None)
     a = ap.parse_args()
@@ -180,7 +207,9 @@ def main():
     year = int(a.target)
     g = daily_grid(Path(a.reg), year, target_ends={"bak": a.bak_end, "mag": a.mag_end})
     tr, te = g[g["year"] < year], g[g["year"] == year].reset_index(drop=True)
-    pred = np.expm1(forecast_log(tr, te, [d for d in a.closed.split(",") if d]))
+    closed = [d for d in a.closed.split(",") if d] if a.closed is not None else closed_from_history(tr, te)
+    print("closed besides Sundays:", ", ".join(closed) or "none")
+    pred = np.expm1(apply_schedule(te, predict_open_log(tr, te), closed))
     out = pd.DataFrame({"date": te["date"].dt.strftime("%Y-%m-%d"), "forecast": np.round(pred, 2)})
     path = Path(a.out) if a.out else ROOT / f"forecast_{year}_clean_deadline_blend.csv"
     out.to_csv(path, index=False)
