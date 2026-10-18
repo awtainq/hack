@@ -4,3 +4,4 @@ catboost_info/
 __pycache__/
 *.pyc
 abitur_stage1/*.xlsx
+.claude/
