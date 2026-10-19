@@ -1,0 +1,29 @@
+{
+  "model": "V63 season shape",
+  "shape_weight": 0.5,
+  "normalization": "year/month weekday log mean",
+  "selection_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022
+  ],
+  "additional_check_year": 2023,
+  "anchor": "V61 with user-reported Public score 0.42430",
+  "public_rmsle_2024": 0.43817,
+  "estimated_public_rmsle_2024": null,
+  "input_sha256": {
+    "forecast_2024_v59_t4.4.csv": "4dccf2bdaaa549fc96d0e07c8b9bc6178ca88b093da8173bc59158f6615e24c7",
+    "forecast_2024_v61_orthogonal_funding.csv": "f21f60f57a3cec6f4ae25bb31b4e8d3cdf38a7adeb975517f4aba8a126d74737",
+    "registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4"
+  },
+  "code_sha256": {
+    "v63_season_shape.py": "11a44c9efc70bdab73fd05201af97c65938ed8d7ee1e36b14beeb911b71a2ca3",
+    "v63_shape_study.py": "08abe238f567d53b07d91e9fcf60e8247bed686c857788cc46089319e48f8e9e",
+    "v59_standalone_4_4.py": "7deff308135d27aa5295c821d6ad956593fb517145725407f0a3e97efb37f347"
+  },
+  "output_sha256": "f3ade85a270e28c5a8382687a247e9fc1ee81a64c878f9fadffdf309fcf2e3ec",
+  "log_update_rmse": 0.0911500003291727,
+  "status": "Rejected: worse than confirmed V61 0.42430"
+}

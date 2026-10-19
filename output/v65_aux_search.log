@@ -1,0 +1,4 @@
+{'mode': 'multi', 'depth': 3, 'iterations': 700, 'l2': 10.0, 'half_life': 3.0, 'lags': True, 'total_scale': 1.0} selection 0.5773774961341748 seconds 11.806298750001588
+{'mode': 'multi', 'depth': 3, 'iterations': 700, 'l2': 10.0, 'half_life': 6.0, 'lags': True, 'total_scale': 1.0} selection 0.5751894147150346 seconds 11.768666624993784
+{'mode': 'multi', 'depth': 3, 'iterations': 700, 'l2': 10.0, 'half_life': 3.0, 'lags': True, 'total_scale': 4.0} selection 0.5779621017198806 seconds 11.979291875002673
+{'mode': 'multi', 'depth': 3, 'iterations': 700, 'l2': 10.0, 'half_life': 6.0, 'lags': True, 'total_scale': 4.0} selection 0.5751318686038802 seconds 11.649791834002826

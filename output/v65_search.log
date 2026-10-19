@@ -1,0 +1,24 @@
+1/22 config={'mode': 'single', 'depth': 3, 'iterations': 300, 'l2': 10.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.58762 elapsed=1.0s
+2/22 config={'mode': 'single', 'depth': 3, 'iterations': 700, 'l2': 10.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.58619 elapsed=1.8s
+3/22 config={'mode': 'single', 'depth': 5, 'iterations': 300, 'l2': 20.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.59952 elapsed=2.0s
+4/22 config={'mode': 'single', 'depth': 5, 'iterations': 700, 'l2': 20.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.59556 elapsed=4.6s
+5/22 config={'mode': 'single', 'depth': 7, 'iterations': 300, 'l2': 20.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.62410 elapsed=5.6s
+6/22 config={'mode': 'single', 'depth': 7, 'iterations': 700, 'l2': 20.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.61666 elapsed=13.1s
+7/22 config={'mode': 'multi', 'depth': 3, 'iterations': 300, 'l2': 10.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.57766 elapsed=5.1s
+8/22 config={'mode': 'multi', 'depth': 3, 'iterations': 700, 'l2': 10.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.57055 elapsed=11.7s
+9/22 config={'mode': 'multi', 'depth': 5, 'iterations': 300, 'l2': 20.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.60650 elapsed=15.3s
+10/22 config={'mode': 'multi', 'depth': 5, 'iterations': 700, 'l2': 20.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.59882 elapsed=36.7s
+11/22 config={'mode': 'multi', 'depth': 7, 'iterations': 300, 'l2': 20.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.62547 elapsed=42.1s
+12/22 config={'mode': 'multi', 'depth': 7, 'iterations': 700, 'l2': 20.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} selection=0.61405 elapsed=105.5s
+13/22 config={'mode': 'single', 'depth': 4, 'iterations': 600, 'l2': 20.0, 'half_life': 3.0, 'lags': True, 'total_scale': 2.0} selection=0.59062 elapsed=2.5s
+14/22 config={'mode': 'single', 'depth': 4, 'iterations': 600, 'l2': 20.0, 'half_life': 6.0, 'lags': True, 'total_scale': 2.0} selection=0.59189 elapsed=2.5s
+15/22 config={'mode': 'single', 'depth': 6, 'iterations': 600, 'l2': 20.0, 'half_life': 3.0, 'lags': True, 'total_scale': 2.0} selection=0.61174 elapsed=6.5s
+16/22 config={'mode': 'single', 'depth': 6, 'iterations': 600, 'l2': 20.0, 'half_life': 6.0, 'lags': True, 'total_scale': 2.0} selection=0.61085 elapsed=6.6s
+17/22 config={'mode': 'multi', 'depth': 4, 'iterations': 600, 'l2': 20.0, 'half_life': 3.0, 'lags': True, 'total_scale': 2.0} selection=0.58722 elapsed=17.2s
+18/22 config={'mode': 'multi', 'depth': 4, 'iterations': 600, 'l2': 20.0, 'half_life': 6.0, 'lags': True, 'total_scale': 2.0} selection=0.58144 elapsed=17.3s
+19/22 config={'mode': 'multi', 'depth': 6, 'iterations': 600, 'l2': 20.0, 'half_life': 3.0, 'lags': True, 'total_scale': 2.0} selection=0.60966 elapsed=56.8s
+20/22 config={'mode': 'multi', 'depth': 6, 'iterations': 600, 'l2': 20.0, 'half_life': 6.0, 'lags': True, 'total_scale': 2.0} selection=0.60020 elapsed=53.5s
+21/22 config={'mode': 'single', 'depth': 4, 'iterations': 300, 'l2': 10.0, 'half_life': 4.0, 'lags': False, 'total_scale': 2.0} selection=0.58164 elapsed=0.7s
+22/22 config={'mode': 'multi', 'depth': 4, 'iterations': 600, 'l2': 20.0, 'half_life': 4.0, 'lags': False, 'total_scale': 2.0} selection=0.58169 elapsed=11.7s
+Selected {'mode': 'multi', 'depth': 3, 'iterations': 700, 'l2': 10.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0} 2023: {'rmsle': 0.6845327352258116, 'weekday_rmsle': 0.3852133647329507}
+Saved forecast_2024_v65_standalone.csv, sum=12784.12, zeros=13

@@ -1,0 +1,31 @@
+{
+  "model": "V60",
+  "year": 2024,
+  "t": 4.4,
+  "ends": {
+    "bak": "07-25",
+    "mag": "07-29"
+  },
+  "audit": {
+    "training_registrations": 139458,
+    "unmatched_registrations": 1523,
+    "budget_registrations": 104275,
+    "contract_registrations": 35183
+  },
+  "rmsle_2024": 0.42636,
+  "status": "User-reported Public score: worse than V59 t=4.4 (0.42473)",
+  "python": "3.10.6",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "sklearn": "1.7.2",
+  "lightgbm": "4.7.0",
+  "catboost": "1.2.10",
+  "files_sha256": {
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "processed_data/included_ks.csv": "60803d4f0b52c7bb0492afc8d8eeff954105a80ca380d926e2b9d63acba553ee",
+    "reproducers/v60_consistent_streams.py": "9b5ca06af522617ed8ff562ad38056149e77b4a4014a9b71914b762935664b31",
+    "v59_standalone_4_4.py": "7deff308135d27aa5295c821d6ad956593fb517145725407f0a3e97efb37f347"
+  },
+  "score_source": "user_reported",
+  "submission_sha256": "17feb1611d2258cc5138db84be06eb56482fa059c534d50dd143ac324e196b50"
+}

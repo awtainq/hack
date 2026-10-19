@@ -1,0 +1,46 @@
+{
+  "anchor_index": 2,
+  "ridge": 0.1,
+  "shrink": 0.75,
+  "trust_scale": 1.0,
+  "log_update_rmse": 0.04892067222964909,
+  "max_abs_log_update": 0.10860006527261765,
+  "gram_eigenvalues": [
+    0.0002738395258119577,
+    0.0023659010690094268,
+    0.008461289708072603,
+    0.06386119199274105
+  ],
+  "estimated_public_rmsle_under_full_calendar_assumption": 0.418707547119891,
+  "measured_v64_public_rmsle": 0.42618,
+  "weights_by_model": {
+    "forecast_2024_v59_t4.4.csv": 0.5401620102083504,
+    "forecast_2024_v60_consistent_streams.csv": 0.23230960288389188,
+    "forecast_2024_v61_orthogonal_funding.csv": 0.2565895401081857,
+    "forecast_2024_v62_soft_closure.csv": 0.18135177978493167,
+    "forecast_2024_v63_season_shape.csv": -0.21041293298535962
+  },
+  "anchor": "forecast_2024_v61_orthogonal_funding.csv",
+  "anchor_public_rmsle": 0.4243,
+  "input_scores": {
+    "forecast_2024_v59_t4.4.csv": 0.42473,
+    "forecast_2024_v60_consistent_streams.csv": 0.42636,
+    "forecast_2024_v61_orthogonal_funding.csv": 0.4243,
+    "forecast_2024_v62_soft_closure.csv": 0.45817,
+    "forecast_2024_v63_season_shape.csv": 0.43817
+  },
+  "input_sha256": {
+    "forecast_2024_v59_t4.4.csv": "4dccf2bdaaa549fc96d0e07c8b9bc6178ca88b093da8173bc59158f6615e24c7",
+    "forecast_2024_v60_consistent_streams.csv": "17feb1611d2258cc5138db84be06eb56482fa059c534d50dd143ac324e196b50",
+    "forecast_2024_v61_orthogonal_funding.csv": "f21f60f57a3cec6f4ae25bb31b4e8d3cdf38a7adeb975517f4aba8a126d74737",
+    "forecast_2024_v62_soft_closure.csv": "4db71cb879b08a6bd0d646890c34cce74365a2f3c61e7609cd63810d0fa7bf50",
+    "forecast_2024_v63_season_shape.csv": "f3ade85a270e28c5a8382687a247e9fc1ee81a64c878f9fadffdf309fcf2e3ec"
+  },
+  "output_sha256": "103f48005177ed774fd4caf9ca5f995beb907b6b38205f73d06bdf45b3262469",
+  "code_sha256": "93726b9a4e532ab37db393e4035b2d5e9f71b0ae7ceefb192f3f4c1748ef5e31",
+  "assumptions": [
+    "Full 73-day squared log forecast distances approximate the unknown public evaluation geometry",
+    "All five user-reported scores refer to the same current scoring regime"
+  ],
+  "status": "Rejected: worse than confirmed V61 0.42430"
+}

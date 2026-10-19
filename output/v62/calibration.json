@@ -1,0 +1,53 @@
+{
+  "model": "V62",
+  "base": "forecast_2024_v61_orthogonal_funding.csv",
+  "base_public_rmsle": 0.4243,
+  "floor": 0.82,
+  "changed_days": 13,
+  "curve": {
+    "quadratic": 0.054656329154128824,
+    "linear": -0.06530001367180108,
+    "intercept": 0.36459385919532844,
+    "optimal_log_floor": 0.5973691856221944,
+    "optimal_count_floor": 0.8173314441363853
+  },
+  "estimated_public_rmsle_under_assumptions": 0.4006575840811677,
+  "historical_score_rounding_sensitivity_only": [
+    0.4005324252123638,
+    0.4007827038645981
+  ],
+  "measured_v62_public_rmsle": 0.45817,
+  "history_scores": [
+    {
+      "file": "forecast_2024_v7_3seed.csv",
+      "floor": 0.55,
+      "score": 0.58862,
+      "source": "Existing SUBMISSIONS.md, not independently reconfirmed",
+      "sha256": "095aa484703d595e9150aaa2350d7b48b1fd69a277030c8bdf91ec20520a28a6"
+    },
+    {
+      "file": "forecast_2024_v10_floor100.csv",
+      "floor": 1.0,
+      "score": 0.58787,
+      "source": "Existing SUBMISSIONS.md, not independently reconfirmed",
+      "sha256": "a4202b7d217ff20e25b9c9c0f352dc5ad2a118c919a9b5d42714579e287d135a"
+    },
+    {
+      "file": "forecast_2024_v11_floor145.csv",
+      "floor": 1.45,
+      "score": 0.59158,
+      "source": "Existing SUBMISSIONS.md, not independently reconfirmed",
+      "sha256": "42fdbb8073761ac61ecdcf64a3d02e1efcb45b98b1d415f3aa53f2420a44115d"
+    }
+  ],
+  "input_base_sha256": "f21f60f57a3cec6f4ae25bb31b4e8d3cdf38a7adeb975517f4aba8a126d74737",
+  "output_sha256": "4db71cb879b08a6bd0d646890c34cce74365a2f3c61e7609cd63810d0fa7bf50",
+  "code_sha256": "5f7c680a26827eaabd155bddff01b03c73c4c66a80188f19a113e81826b9d925",
+  "assumptions": [
+    "Historical scores in SUBMISSIONS.md refer to the unchanged floor-only CSV files",
+    "Those historical scores use the same public test set and scoring regime as the current user scores",
+    "Squared RMSLE is additive over evaluated dates"
+  ],
+  "source": "Public-score calibration; not independent validation",
+  "status": "Rejected: historical floor-score curve is incompatible with the current score response"
+}

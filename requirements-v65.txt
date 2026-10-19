@@ -1,0 +1,5 @@
+# V65's direct model; the existing Python 3.10 environment was used.
+numpy==2.2.6
+pandas==2.3.3
+catboost==1.2.10
+threadpoolctl==3.7.0

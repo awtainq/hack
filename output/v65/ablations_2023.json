@@ -1,0 +1,25 @@
+{
+  "protocol": "Post-selection diagnostics only; these results did not select hyperparameters",
+  "selected_model": {
+    "year": 2023,
+    "config_id": 7,
+    "mode": "multi",
+    "depth": 3,
+    "iterations": 700,
+    "l2": 10.0,
+    "half_life": 4.0,
+    "lags": true,
+    "total_scale": 2.0,
+    "rmsle": 0.6845327352258116,
+    "weekday_rmsle": 0.3852133647329507
+  },
+  "same_model_without_lag_features": {
+    "rmsle": 0.6774424311210742,
+    "weekday_rmsle": 0.36934758564410197
+  },
+  "single_target_same_parameters": {
+    "rmsle": 0.699821912962065,
+    "weekday_rmsle": 0.4228684795315998
+  },
+  "v59_and_v65_2023_schedule_matches": true
+}

@@ -1,0 +1,13 @@
+{
+  "year": 2023,
+  "config_id": 7,
+  "mode": "multi",
+  "depth": 3,
+  "iterations": 700,
+  "l2": 10.0,
+  "half_life": 4.0,
+  "lags": true,
+  "total_scale": 2.0,
+  "rmsle": 0.6845327352258116,
+  "weekday_rmsle": 0.3852133647329507
+}

@@ -1,0 +1,6 @@
+{
+  "file": "forecast_2024_best_verified.csv",
+  "source": "forecast_2024_v61_orthogonal_funding.csv",
+  "public_rmsle": 0.4243,
+  "sha256": "f21f60f57a3cec6f4ae25bb31b4e8d3cdf38a7adeb975517f4aba8a126d74737"
+}

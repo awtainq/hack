@@ -1,0 +1,8 @@
+# Versions used for the recorded V60 results; Python 3.10.6.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.14.1
+scikit-learn==1.7.2
+lightgbm==4.7.0
+catboost==1.2.10
+threadpoolctl==3.7.0

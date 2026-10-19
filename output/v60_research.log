@@ -1,0 +1,88 @@
+2017 z: 0.9s
+2017 z_Бюджет: 0.7s
+2017 z_Договор: 0.7s
+2017 z_degree_bak: 0.7s
+2017 z_degree_mag: 0.7s
+2017 z_degree_other: 0.7s
+2017 z_fund_budget: 0.7s
+2017 z_fund_contract: 0.7s
+2017 z_channel_offline: 0.7s
+2018 z: 0.7s
+2018 z_Бюджет: 0.7s
+2018 z_Договор: 0.7s
+2018 z_degree_bak: 0.7s
+2018 z_degree_mag: 0.8s
+2018 z_degree_other: 0.8s
+2018 z_fund_budget: 0.7s
+2018 z_fund_contract: 0.8s
+2018 z_channel_offline: 0.8s
+2019 z: 0.8s
+2019 z_Бюджет: 0.8s
+2019 z_Договор: 0.8s
+2019 z_degree_bak: 0.8s
+2019 z_degree_mag: 0.7s
+2019 z_degree_other: 0.8s
+2019 z_fund_budget: 0.8s
+2019 z_fund_contract: 0.8s
+2019 z_channel_offline: 0.8s
+2021 z: 0.8s
+2021 z_Бюджет: 0.8s
+2021 z_Договор: 0.8s
+2021 z_degree_bak: 0.8s
+2021 z_degree_mag: 0.8s
+2021 z_degree_other: 0.8s
+2021 z_fund_budget: 0.8s
+2021 z_fund_contract: 0.8s
+2021 z_channel_offline: 0.8s
+2021 z_channel_remote: 0.8s
+2022 z: 0.9s
+2022 z_Бюджет: 0.8s
+2022 z_Договор: 0.8s
+2022 z_degree_bak: 0.9s
+2022 z_degree_mag: 0.9s
+2022 z_degree_other: 0.9s
+2022 z_fund_budget: 0.8s
+2022 z_fund_contract: 0.8s
+2022 z_channel_offline: 1.1s
+2022 z_channel_remote: 1.2s
+2023 z: 0.8s
+2023 z_Бюджет: 0.9s
+2023 z_Договор: 0.9s
+2023 z_degree_bak: 0.8s
+2023 z_degree_mag: 0.8s
+2023 z_degree_other: 0.8s
+2023 z_fund_budget: 0.8s
+2023 z_fund_contract: 0.9s
+2023 z_channel_offline: 0.9s
+2023 z_channel_remote: 1.0s
+2024 z: 0.9s
+2024 z_Бюджет: 0.9s
+2024 z_Договор: 0.9s
+2024 z_degree_bak: 0.9s
+2024 z_degree_mag: 0.9s
+2024 z_degree_other: 0.9s
+2024 z_fund_budget: 0.9s
+2024 z_fund_contract: 0.9s
+2024 z_channel_offline: 0.9s
+2024 z_channel_remote: 0.9s
+year              2017    2018    2019    2021    2022    2023
+model                                                         
+channel         0.4545  0.5244  0.4764  0.7275  0.9799  1.2249
+channel_extrap  0.4545  0.5244  0.4764  0.8165  1.8591  2.1953
+degree          0.4811  0.4955  0.4472  0.7027  0.5306  0.7069
+degree_extrap   0.6024  0.4958  0.4422  0.7525  0.5587  0.7525
+fund            0.4470  0.5099  0.4568  0.6909  0.5406  0.6941
+fund_extrap     0.4740  0.5010  0.4428  0.7201  0.5691  0.7178
+legacy_streams  0.4484  0.5138  0.4612  0.6954  0.5408  0.7035
+pool            0.4545  0.5244  0.4764  0.6740  0.5278  0.6788
+v59             0.4764  0.5155  0.4615  0.7339  0.5754  0.7435
+Means model
+pool              0.5560
+fund              0.5566
+legacy_streams    0.5605
+degree            0.5607
+fund_extrap       0.5708
+v59               0.5844
+degree_extrap     0.6007
+channel           0.7313
+channel_extrap    1.0544

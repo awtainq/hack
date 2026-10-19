@@ -1,0 +1,12 @@
+Winner selected using ONLY 2017-2022: 7 {'mode': 'multi', 'depth': 3, 'iterations': 700, 'l2': 10.0, 'half_life': 4.0, 'lags': True, 'total_scale': 2.0}
+ config_id  selection  mean_rmsle
+         7   0.570550    0.531645
+        25   0.575132    0.537899
+        23   0.575189    0.538604
+        22   0.577377    0.536292
+         6   0.577657    0.539591
+        24   0.577962    0.538509
+        17   0.581444    0.541790
+        20   0.581637    0.541258
+Final 2023 check: {'rmsle': 0.6845327352258116, 'weekday_rmsle': 0.3852133647329507}
+Saved forecast_2024_v65_standalone.csv, sum=12784.12, zeros=13
