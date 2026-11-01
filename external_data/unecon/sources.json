@@ -1,0 +1,69 @@
+{
+  "retrieved_date": "2026-10-20",
+  "institution": "Saint Petersburg State University of Economics (UNECON)",
+  "sources": {
+    "report_2024": {
+      "url": "https://unecon.ru/wp-content/uploads/2024/10/2024.pdf",
+      "publication_month": "2024-10",
+      "bachelor_page": 2,
+      "master_page": 9,
+      "meaning": "Applicants who submitted applications, Russian and foreign citizens; not enrolled students",
+      "season_end_date": null,
+      "bachelor": {"2021": 10712, "2022": 10219, "2023": 9789, "2024": 9131},
+      "master_miep": {"2020": 3053, "2021": 1808, "2022": 1726, "2023": 2303, "2024": 2301}
+    },
+    "report_2023": {
+      "url": "https://unecon.ru/wp-content/uploads/2024/10/2023.pdf",
+      "bachelor_page": 2,
+      "master_page": 9,
+      "bachelor": {"2020": 11650, "2021": 10712, "2022": 10219, "2023": 9830},
+      "master_miep": {"2019": 1902, "2020": 3053, "2021": 1808, "2022": 1726, "2023": 2252}
+    },
+    "report_2022": {
+      "url": "https://unecon.ru/wp-content/uploads/2024/10/2022.pdf",
+      "bachelor_page": 2,
+      "bachelor": {"2019": 8304, "2020": 11650, "2021": 10712, "2022": 10219}
+    },
+    "report_2020": {
+      "url": "https://unecon.ru/wp-content/uploads/2022/06/itogi_priem._kampanii_2020g.pdf",
+      "bachelor_page": 2,
+      "master_page": 13,
+      "bachelor": {"2018": 8850, "2019": 8304, "2020": 11650},
+      "master_miep": {"2017": 2921, "2018": 2402, "2019": 1902, "2020": 3053},
+      "caveat": "The master heading does not explicitly mention MIEP."
+    },
+    "report_2019": {
+      "url": "https://unecon.ru/wp-content/uploads/2022/06/priemnaya_kampaniya2019_2.pdf",
+      "bachelor_page": 2,
+      "bachelor": {"2017": 9108, "2018": 8850, "2019": 8638}
+    },
+    "report_2025": {
+      "url": "https://unecon.ru/wp-content/uploads/2025/09/itogi-pk-2025.pdf",
+      "bachelor_page": 2,
+      "master_page": 15,
+      "bachelor": {"2022": 10219, "2023": 9789, "2024": 9131, "2025": 10637},
+      "master_miep": {"2021": 1808, "2022": 1726, "2023": 2303, "2024": 2301, "2025": 2868}
+    },
+    "consultation_center_2024": {
+      "url": "https://unecon.ru/konsultaczionnyj-czentr-dlya-abiturientov-2/",
+      "published": "2024-06-17",
+      "start": "2024-06-20",
+      "end": "2024-08-16",
+      "weekdays": "10:00-17:00",
+      "saturdays": "11:00-15:00 starting 2024-07-06",
+      "caveat": "Consultation-center hours do not establish the registration-processing calendar. Not used to force zeros."
+    },
+    "bachelor_deadline_2024": {
+      "url": "https://unecon.ru/okonchanie-priema-dokumentov-na-byudzhet-dlya-postupayushhih-na-bakalavriat-i-speczialitet/",
+      "published": "2024-07-19",
+      "deadline": "2024-07-25T17:00:00+03:00",
+      "scope": "Budget applications based on EGE results, bachelor/specialist"
+    }
+  },
+  "warnings": [
+    "Annual published applicants and Jun20-Aug31 registration rows are not the same observable.",
+    "Reports revise earlier values: bachelor 2019 8638 vs 8304; bachelor 2023 9830 vs 9789; master 2023 2252 vs 2303.",
+    "2024 final totals are post-campaign information; using them as input is conditional reconstruction, not a pre-campaign forecast.",
+    "No verified daily 2024 registration labels have been obtained."
+  ]
+}

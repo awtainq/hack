@@ -1,0 +1,112 @@
+{
+  "model": "V92 degree-specific deadline coordinates",
+  "selection": {
+    "degrees": {
+      "bachelor": {
+        "family": "catboost",
+        "coordinates": "event",
+        "depth": 3,
+        "iterations": 700,
+        "half_life": 6.0,
+        "align_history": false,
+        "level_method": "mean",
+        "level_window": 3,
+        "exams": true,
+        "knots": 9,
+        "penalty": 3.0
+      },
+      "master": {
+        "family": "catboost",
+        "coordinates": "calendar",
+        "depth": 3,
+        "iterations": 700,
+        "half_life": 2.0,
+        "align_history": true,
+        "level_method": "none",
+        "level_window": 3,
+        "exams": false,
+        "knots": 9,
+        "penalty": 3.0
+      },
+      "background": {
+        "family": "catboost",
+        "coordinates": "calendar",
+        "depth": 3,
+        "iterations": 700,
+        "half_life": 2.0,
+        "align_history": false,
+        "level_method": "trend",
+        "level_window": 5,
+        "exams": false,
+        "knots": 9,
+        "penalty": 3.0
+      }
+    },
+    "selected_indices": {
+      "bachelor": 35,
+      "master": 12,
+      "background": 3
+    },
+    "individual_initial_indices": {
+      "bachelor": 83,
+      "master": 14,
+      "background": 33
+    },
+    "pooled_rmsle": 0.5766285666932075,
+    "validation_years": [
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023
+    ]
+  },
+  "protocol": {
+    "validation_years": [
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023
+    ],
+    "criterion": "pooled recency-weighted log1p MSE, full 73 days",
+    "weight_half_life": 3.0,
+    "candidates_per_degree": {
+      "bachelor": 224,
+      "master": 160,
+      "background": 80
+    },
+    "future_observations_allowed": false,
+    "previous_forecasts_allowed": false,
+    "leaderboard_scores_allowed": false,
+    "independent_holdout_available": false,
+    "deadline_alignment": "last substantial historical day followed by three low days",
+    "selection": "individual initialization, then at most six coordinate passes on total"
+  },
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "previous_forecasts_used": false,
+  "leaderboard_scores_used": false,
+  "target_year_totals_used": false,
+  "public_rmsle": null,
+  "sha256": {
+    "admissions_calendar.py": "e0bed70b806a9792c000f5c9e4c0b0164df74abb111977afbe3fd1e0a225799e",
+    "v92_model.py": "32199f3ef12ca7f75efee27808798a03ccbcb745f7b39ab36586f16773dc748e",
+    "/Users/vld/python/hack/evaluate_v92.py": "d96aef9732005d388552b9fedcda2cb6bfc2dada87a8b5023860505b3ff3cc99",
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "external_data/ege/exam_calendar.csv": "001f3ee45d64ff46105d0f1ec9bdf23641cbe183f02e8beac0350c3eb8cb5032",
+    "forecast_2024_v92.csv": "4938fe04c5bcba150752880715d9bfb88d3398747855b96156ef5904da913c0c",
+    "output/v92/selected_config.json": "b58b52e050b66d9da93e12d92b8d64f36d68d68a7bc0b58848a08c4f83aa0c98"
+  }
+}

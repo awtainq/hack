@@ -1,0 +1,14 @@
+{
+  "tests_passed": 4,
+  "full_historical_retraining_csv_byte_identical": true,
+  "saved_prediction_csv_byte_identical": true,
+  "reference_file_needed_for_fixed_config_training": false,
+  "reference_file_needed_for_prediction": false,
+  "reference_used_for_hyperparameter_selection": true,
+  "independent_of_reference": false,
+  "protected_files_unchanged": true,
+  "rows": 73,
+  "public_rmsle": 0.39621,
+  "cli_degree_exports_checked": true,
+  "combined_forecast_unchanged": true
+}

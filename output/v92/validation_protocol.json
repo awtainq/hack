@@ -1,0 +1,23 @@
+{
+  "validation_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "criterion": "pooled recency-weighted log1p MSE, full 73 days",
+  "weight_half_life": 3.0,
+  "candidates_per_degree": {
+    "bachelor": 224,
+    "master": 160,
+    "background": 80
+  },
+  "future_observations_allowed": false,
+  "previous_forecasts_allowed": false,
+  "leaderboard_scores_allowed": false,
+  "independent_holdout_available": false,
+  "deadline_alignment": "last substantial historical day followed by three low days",
+  "selection": "individual initialization, then at most six coordinate passes on total"
+}

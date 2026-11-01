@@ -1,0 +1,18 @@
+{
+  "file": "forecast_2024_v74.csv",
+  "sha256": "58f5493506af6439fc2b4b2117f3be8b2cd292fd9bebecc3676ae85a5e27dbd6",
+  "public_rmsle": 0.41893,
+  "source": "user_reported",
+  "reported_date": "2026-10-20",
+  "method": "leaderboard-feedback calibration; not independently trained",
+  "alias": "forecast_2024_v74_probe_closed_saturdays.csv",
+  "alias_is_byte_identical": true,
+  "source_utility": "lb_probe.py",
+  "missing_utility_dependencies": [
+    "common.py",
+    "lb_state.json"
+  ],
+  "public_subset_size_confirmed": false,
+  "historical_v74_metrics_available": false,
+  "note": "The three-Saturday edit is observed; no hidden labels or evaluation split are inferred in this audit."
+}

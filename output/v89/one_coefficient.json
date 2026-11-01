@@ -1,0 +1,9 @@
+{
+  "coefficient": 0.9226971264438535,
+  "coefficient_source": "V84 forecast total / historical models forecast total",
+  "independent_of_v84": false,
+  "total": 11399.999996999999,
+  "mean_absolute_difference_to_v84_per_day": 18.29759217662065,
+  "mean_absolute_percent_difference_to_v84_positive_days": 22.86904176025306,
+  "public_rmsle": null
+}

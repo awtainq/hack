@@ -1,0 +1,84 @@
+[
+  {
+    "start": 0,
+    "selection_error": 0.7523705170757484,
+    "indices": {
+      "bachelor": 804,
+      "master": 717,
+      "background": 559
+    }
+  },
+  {
+    "start": 1,
+    "selection_error": 0.7522701832181349,
+    "indices": {
+      "bachelor": 816,
+      "master": 608,
+      "background": 559
+    }
+  },
+  {
+    "start": 2,
+    "selection_error": 0.7522701832181349,
+    "indices": {
+      "bachelor": 816,
+      "master": 608,
+      "background": 559
+    }
+  },
+  {
+    "start": 3,
+    "selection_error": 0.7523705170757484,
+    "indices": {
+      "bachelor": 804,
+      "master": 717,
+      "background": 559
+    }
+  },
+  {
+    "start": 4,
+    "selection_error": 0.7523705170757484,
+    "indices": {
+      "bachelor": 804,
+      "master": 717,
+      "background": 559
+    }
+  },
+  {
+    "start": 5,
+    "selection_error": 0.7522701832181349,
+    "indices": {
+      "bachelor": 816,
+      "master": 608,
+      "background": 559
+    }
+  },
+  {
+    "start": 6,
+    "selection_error": 0.7523705170757484,
+    "indices": {
+      "bachelor": 804,
+      "master": 717,
+      "background": 559
+    }
+  },
+  {
+    "start": 7,
+    "selection_error": 0.7716349686850791,
+    "indices": {
+      "bachelor": 580,
+      "master": 634,
+      "background": 318
+    }
+  },
+  {
+    "stage": "pair_search",
+    "pass": 1,
+    "selection_error": 0.7522701832181349,
+    "indices": {
+      "bachelor": 816,
+      "master": 608,
+      "background": 559
+    }
+  }
+]

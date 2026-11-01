@@ -1,0 +1,10 @@
+{
+  "knots": 9,
+  "penalty": 0.03,
+  "auxiliary_weight": 0.2,
+  "half_life": 3.0,
+  "volume_trend": true,
+  "channels": false,
+  "calibration_penalty": null,
+  "max_iterations": 1200
+}

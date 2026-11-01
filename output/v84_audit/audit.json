@@ -1,0 +1,17 @@
+{
+  "reported_result": {
+    "file": "forecast_2024_v84.csv",
+    "sha256": "7c8fb81e477eb5deb5e0f9de2b0b7d6c2cc9d075bd680251bfee2bd6c56529e6",
+    "public_rmsle": 0.3914,
+    "source": "user_reported",
+    "reported_date": "2026-10-21",
+    "method": "leaderboard-feedback calibration; includes user volume normalization and projected-score input; not independently trained"
+  },
+  "refactored_output_sha256": "7c8fb81e477eb5deb5e0f9de2b0b7d6c2cc9d075bd680251bfee2bd6c56529e6",
+  "byte_identical": true,
+  "legacy_source_preserved_at": "output/v84_audit/original_v84_sub40_model.py",
+  "tests_passed": 7,
+  "legacy_parameters_are_frozen_not_historically_selected": true,
+  "has_future_label_independent_alternative": true,
+  "clean_alternative_public_score": null
+}

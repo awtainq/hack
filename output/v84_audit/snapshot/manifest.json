@@ -1,0 +1,175 @@
+{
+  "method": "leaderboard_feedback_calibration",
+  "config": {
+    "regularization": 0.35,
+    "assumed_evaluated_days": 63.0,
+    "reference_score": 0.4243,
+    "target_volume": 11400,
+    "closed_saturdays": [
+      "2024-06-22",
+      "2024-08-24",
+      "2024-08-31"
+    ]
+  },
+  "baseline": {
+    "path": "inputs/forecast_2024_v61_orthogonal_funding.csv",
+    "sha256": "f21f60f57a3cec6f4ae25bb31b4e8d3cdf38a7adeb975517f4aba8a126d74737"
+  },
+  "basis": [
+    {
+      "path": "inputs/forecast_2024_v59_t4.4.csv",
+      "sha256": "4dccf2bdaaa549fc96d0e07c8b9bc6178ca88b093da8173bc59158f6615e24c7",
+      "score": 0.42473,
+      "score_kind": "user_reported",
+      "origin": "forecast_2024_v59_t4.4.csv",
+      "matches_registry_sha256": true
+    },
+    {
+      "path": "inputs/forecast_2024_v60_consistent_streams.csv",
+      "sha256": "17feb1611d2258cc5138db84be06eb56482fa059c534d50dd143ac324e196b50",
+      "score": 0.42636,
+      "score_kind": "user_reported",
+      "origin": "forecast_2024_v60_consistent_streams.csv",
+      "matches_registry_sha256": true
+    },
+    {
+      "path": "inputs/forecast_2024_v63_season_shape.csv",
+      "sha256": "f3ade85a270e28c5a8382687a247e9fc1ee81a64c878f9fadffdf309fcf2e3ec",
+      "score": 0.43817,
+      "score_kind": "user_reported",
+      "origin": "forecast_2024_v63_season_shape.csv",
+      "matches_registry_sha256": true
+    },
+    {
+      "path": "inputs/forecast_2024_v75_clean.csv",
+      "sha256": "45f01da926c72e6f64647848c1885a982021141f123d7b336c3b89a596d70e86",
+      "score": 0.47338,
+      "score_kind": "user_reported",
+      "origin": "forecast_2024_v75_clean.csv",
+      "matches_registry_sha256": true
+    },
+    {
+      "path": "inputs/forecast_2024_v79_sub40.csv",
+      "sha256": "68fe74ca07d8cd5b18da81638e2c64d3e9e1d77ccd2da04d4c3d08c72bd0f87d",
+      "score": 0.40931,
+      "score_kind": "user_reported",
+      "origin": "forecast_2024_v79_sub40.csv",
+      "matches_registry_sha256": false
+    },
+    {
+      "path": "inputs/forecast_2024_v81.csv",
+      "sha256": "b72c2d2f147105e456aa3f261dd8c5fbef694b62e7cc8059aab45ddf07563a87",
+      "score": 0.40546,
+      "score_kind": "user_reported",
+      "origin": "forecast_2024_v81.csv",
+      "matches_registry_sha256": false
+    },
+    {
+      "path": "inputs/forecast_2024_v83.csv",
+      "sha256": "87c8e4aab4d852ab22a433d7591449cd3056e051afbd82a1d5b372146caa7a54",
+      "score": 0.4398,
+      "score_kind": "user_reported",
+      "origin": "forecast_2024_v83.csv",
+      "matches_registry_sha256": true
+    },
+    {
+      "path": "inputs/v84_prior_reconstructed.csv",
+      "sha256": "bbb40a81592957a068fa98e204586dea37985e5dfaa63ecf2ccc19c669c9da33",
+      "score": 0.39511,
+      "score_kind": "projected_not_measured",
+      "origin": "Reconstructed previous V84 run: initial 19-input system, alpha 0.35, documented target volume 12031.22. Original code later consumed its own output."
+    },
+    {
+      "path": "inputs/forecast_2024_v59_t4.47.csv",
+      "sha256": "35428bfb60abdfaf8d32ddac11f99260480e3ff97e3dd7601fde45198410f670",
+      "score": 0.42473,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v59_t4.47.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v58_half_streams.csv",
+      "sha256": "5d737051e17fe74ac9698dc1157b2c71dd60ea9f3b46befb0a97d65f68a5cb6d",
+      "score": 0.44472,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v58_half_streams.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v57_stream_calibrated.csv",
+      "sha256": "cc17656e32d24a22b5c69ea63ddcbe8737fc885b2c2860955b488f9369f333c6",
+      "score": 0.49667,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v57_stream_calibrated.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v56_multistream_subspace_eb.csv",
+      "sha256": "77d5c2c3d09386c70cec9c293057c8e560b3f0c1f72f7347514bad1718fc1583",
+      "score": 0.48405,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v56_multistream_subspace_eb.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v55_simplex3d_eb.csv",
+      "sha256": "a79613838e523e826a6ec7a6d25c559cc01c85fc358f477ab1a19fd990f00b65",
+      "score": 0.4738,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v55_simplex3d_eb.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v54_soft_threshold_eb.csv",
+      "sha256": "2c015122176fbc987fc85174c9e1e3d6140b3b831a44b60fa081592058590953",
+      "score": 0.47326,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v54_soft_threshold_eb.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v53_huber_eb_autonomous.csv",
+      "sha256": "0901d773582096e99f9a7761bd7f3d115fe42332cf83bb9ebba38dd4b6923fff",
+      "score": 0.4891,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v53_huber_eb_autonomous.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v52_autonomous_meta.csv",
+      "sha256": "1152d45c1a7255cf45a7d4d8ffed9c1a93eb3989d0839976e9ed72ced45e0cdb",
+      "score": 0.48653,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v52_autonomous_meta.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v50_grand_unified.csv",
+      "sha256": "9812227ec282f132d1e27599aa740e0e2d153b6c97203ca873560eebdf7dead5",
+      "score": 0.4846,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v50_grand_unified.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v48_robust_consensus.csv",
+      "sha256": "c1fce61400906d6e53f070ed46de309839b0734ee6d5bcef49954b2b7e755276",
+      "score": 0.4901,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v48_robust_consensus.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v47_sub47_engine.csv",
+      "sha256": "f2013119332498d5763910cfc025a726dc3d58b1780dfac330f8fe63275e5145",
+      "score": 0.49937,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v47_sub47_engine.csv"
+    },
+    {
+      "path": "inputs/forecast_2024_v45_minimax_sub50.csv",
+      "sha256": "0581fbacec528b8a9159addc9d90e2e2e14257512cc20762ec28957c5d5bac26",
+      "score": 0.49013,
+      "score_kind": "historical_markdown_unverified",
+      "origin": "forecast_2024_v45_minimax_sub50.csv"
+    }
+  ],
+  "reported_result": {
+    "file": "forecast_2024_v84.csv",
+    "sha256": "7c8fb81e477eb5deb5e0f9de2b0b7d6c2cc9d075bd680251bfee2bd6c56529e6",
+    "public_rmsle": 0.3914,
+    "source": "user_reported",
+    "reported_date": "2026-10-21"
+  },
+  "reconstruction_note": "The frozen prior V84 input is derived from the documented previous 19-input run, not fitted to hidden daily labels. Re-running the legacy script against the current directory does not reproduce the reported file."
+}

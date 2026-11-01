@@ -1,0 +1,33 @@
+{
+  "reference_role": "post-hoc comparison only; not ground truth or training input",
+  "reference_used_for_selection": false,
+  "public_rmsle": null,
+  "comparisons": {
+    "v90": {
+      "total": 12985.023603000001,
+      "reference_total": 11399.999996999999,
+      "total_percent_difference": 13.903715845764154,
+      "mean_absolute_difference_per_day": 29.989410575342465,
+      "mean_absolute_percent_difference_positive_days": 34.61420913692201,
+      "same_zero_dates": true
+    },
+    "v91": {
+      "total": 12162.859161,
+      "reference_total": 11399.999996999999,
+      "total_percent_difference": 6.691747054392572,
+      "mean_absolute_difference_per_day": 22.69187939726027,
+      "mean_absolute_percent_difference_positive_days": 28.314116082651978,
+      "same_zero_dates": true
+    },
+    "v92": {
+      "total": 12501.776102,
+      "reference_total": 11399.999996999999,
+      "total_percent_difference": 9.66470267798194,
+      "mean_absolute_difference_per_day": 24.350987657534247,
+      "mean_absolute_percent_difference_positive_days": 31.679899304135784,
+      "same_zero_dates": true
+    }
+  },
+  "mean_absolute_difference_reduction_vs_v90_percent": 18.801379585780097,
+  "mean_absolute_difference_reduction_vs_v91_percent": -7.311462533483648
+}

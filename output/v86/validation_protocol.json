@@ -1,0 +1,14 @@
+{
+  "years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "selection_rule": "recency-weighted mean full 73-day RMSLE",
+  "validation_weight_half_life": 3.0,
+  "independent_holdout_available": false,
+  "leaderboard_inputs_allowed": false
+}

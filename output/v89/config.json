@@ -1,0 +1,7 @@
+{
+  "depth": 4,
+  "iterations": 500,
+  "half_life": 3.0,
+  "correction_knots": 8,
+  "correction_penalty": 0.1
+}

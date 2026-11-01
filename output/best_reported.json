@@ -1,0 +1,8 @@
+{
+  "file": "forecast_2024_v84.csv",
+  "sha256": "7c8fb81e477eb5deb5e0f9de2b0b7d6c2cc9d075bd680251bfee2bd6c56529e6",
+  "public_rmsle": 0.3914,
+  "source": "user_reported",
+  "reported_date": "2026-10-21",
+  "method": "leaderboard-feedback calibration; includes user volume normalization and projected-score input; not independently trained"
+}

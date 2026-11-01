@@ -1,0 +1,65 @@
+{
+  "model": "V88",
+  "forecast_year": 2024,
+  "config": {
+    "family": "forest",
+    "trees": 256,
+    "min_leaf": 6,
+    "feature_fraction": 1.0,
+    "half_life": 3.0,
+    "annual_context": true,
+    "schedule": "learned",
+    "exams": true
+  },
+  "training_inputs": [
+    "processed_data/registered.csv",
+    "external_data/ege/exam_calendar.csv"
+  ],
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "selection": {
+    "config_id": 55.0,
+    "criterion": 0.5689710151527104,
+    "mean_rmsle": 0.5344908802157619
+  },
+  "validation_protocol": {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023
+    ],
+    "selection_rule": "recency-weighted mean full 73-day RMSLE",
+    "validation_weight_half_life": 3.0,
+    "independent_holdout_available": false,
+    "leaderboard_inputs_allowed": false
+  },
+  "public_rmsle": null,
+  "old_forecasts_used": false,
+  "leaderboard_scores_used": false,
+  "target_year_annual_totals_used": false,
+  "sha256": {
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "v88_model.py": "ed5349fa3e990ba4de50772e1de7c95184b857a8ba36e6d8bcf218a37fb6e02d",
+    "/Users/vld/python/hack/evaluate_v88.py": "5ee90a69962ce17f0b85aee73039003f54720b07e0cae7372683b878e8f51443",
+    "forecast_2024_v88.csv": "e5dbad7f7804e803c2c3b05d78b990cec7933850c3e1f6b24ca135598c40a08a",
+    "external_data/ege/exam_calendar.csv": "001f3ee45d64ff46105d0f1ec9bdf23641cbe183f02e8beac0350c3eb8cb5032"
+  },
+  "tests_passed": 5,
+  "selected_train_predict_byte_identical": true,
+  "forecast_sum": 12768.578933,
+  "zero_days": 13,
+  "candidate_count": 192,
+  "status": "unsubmitted; Public RMSLE below 0.4 not established"
+}

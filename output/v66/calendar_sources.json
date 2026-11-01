@@ -1,0 +1,18 @@
+{
+  "2021_bachelor": {
+    "date": "2021-07-29",
+    "source": "https://minobrnauki.gov.ru/press-center/news/novosti-ministerstva/32843/",
+    "description": "Official Ministry announcement: deadline for EGE and university examinations in the 2021 campaign."
+  },
+  "2023_master": {
+    "date": "2023-07-28",
+    "source": "https://unecon.ru/wp-content/uploads/2023/06/instrukcziya-v-magistraturu.pdf"
+  },
+  "2024_master": {
+    "date": "2024-07-29",
+    "source": "https://t.me/askmag/121",
+    "corroborating_source": "https://t.me/s/magisterunecon?before=324",
+    "note": "Existing 2024 input retained. The initial pp-mag.pdf of November 2023 says 28 July but explicitly expired on January 20, 2024; not used."
+  },
+  "other_validation_dates": "Nominal policy, not represented as verified official dates: bachelor July 25, master July 29 shifted backward to Friday if on weekend."
+}

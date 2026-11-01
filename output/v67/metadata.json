@@ -1,0 +1,48 @@
+{
+  "model": "V61 with raw-data degree shares and explicit soft user volume priors",
+  "source_of_volume_hints": "user_provided; not independently inferred",
+  "uncertain_count_definition": "unknown: registration counts, unique applicants or enrolments not confirmed",
+  "working_assumption": "Approximate registration totals for the forecast window 2024-06-20 through 2024-08-31; use only as soft priors",
+  "prior_config": {
+    "year": 2024,
+    "source": "user_provided",
+    "status": "unverified_campaign_totals",
+    "measurement_definition": "unknown: registration counts, unique applicants or enrolments not confirmed",
+    "working_assumption": "Approximate registration totals for the forecast window 2024-06-20 through 2024-08-31; use only as soft priors",
+    "relative_uncertainty": 0.15,
+    "max_prior_weight": 0.75,
+    "totals": {
+      "bachelor": 9131,
+      "master_miep": 2301
+    }
+  },
+  "base_file": "forecast_2024_v61_orthogonal_funding.csv",
+  "base_public_rmsle": 0.4243,
+  "public_rmsle": null,
+  "input_sha256": {
+    "/Users/vld/python/hack/forecast_2024_v61_orthogonal_funding.csv": "f21f60f57a3cec6f4ae25bb31b4e8d3cdf38a7adeb975517f4aba8a126d74737",
+    "/Users/vld/python/hack/processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "/Users/vld/python/hack/volume_priors_2024.json": "2fc9c866d0106f53ecf02836756b531e79126ac0decdf57d79680186a6adb254",
+    "/Users/vld/python/hack/output/v60/backtest_daily.csv": "d6857ac426128d3ac34bbec509cb7c91f3cedfee3277879269f08572a9666b8c",
+    "/Users/vld/python/hack/output/v61/calibration.json": "25c7593d31c5088c1e286e6d1b54cb135fbc0026f14f0d0a36dda0c83c7fdf96"
+  },
+  "code_sha256": "cbbba13319b63ba9baf608df2115630293cdf7e906d232f8b97cbfed49c8646a",
+  "calendar_code_sha256": "1e74ae45bb869f989c2510d0bb84adc9505f05e3cfa4b9962c69de9b58b9c64f",
+  "share_model_sha256": "a32ea70c7c92a25e6e1330145ab5135b07f47fd2ca7dd7986201c64ce9773976",
+  "share_model_config": {
+    "type": "CatBoostClassifier",
+    "depth": 4,
+    "iterations": 300,
+    "half_life": 3.0,
+    "seed": 67123
+  },
+  "base_log_volume_rmse": {
+    "bachelor": 0.22142977658403054,
+    "master_miep": 0.19094617279823112,
+    "other": 0.3201322795083456
+  },
+  "output_sha256": "19cfeb75fce90611e5dac0a8b2fdaa91d63c2781921265338783a872f23bfbe7",
+  "total_forecast": 12012.779999999999,
+  "closed_days": 13,
+  "caveat": "Historical V61 components use frozen weights calibrated on 2024 feedback; volume-error estimates are retrospective, not independent validation of the new priors."
+}

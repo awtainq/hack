@@ -1,0 +1,37 @@
+{
+  "year": 2024,
+  "days": 73,
+  "fresh_training_matches_original_exactly": true,
+  "matches_saved_original_model_exactly": true,
+  "total_csv_byte_identical": true,
+  "components_csv_byte_identical": true,
+  "max_absolute_difference_before_rounding": {
+    "bachelor": 0.0,
+    "master": 0.0,
+    "background": 0.0,
+    "forecast": 0.0
+  },
+  "totals": {
+    "bachelor": 8197.35185775382,
+    "master": 2131.1992341987325,
+    "background": 706.8473395630406,
+    "forecast": 11035.398431515594
+  },
+  "cli_load_without_data_and_export": {
+    "total": true,
+    "bachelor": true,
+    "master": true,
+    "background": true,
+    "all": true
+  },
+  "sha256": {
+    "forecast_2024_v93.csv": "c59a34b619b902f6dc81f0226a119fcb5f5c6818b0f979a92b27b3918c38b973",
+    "forecast_2024_v93_simple.csv": "c59a34b619b902f6dc81f0226a119fcb5f5c6818b0f979a92b27b3918c38b973",
+    "v93_simple.py": "3065c9aa249994401a860f2a3ae7877cd6f8db9984aaf5f837bd18764afa77bb",
+    "admissions_calendar.py": "e0bed70b806a9792c000f5c9e4c0b0164df74abb111977afbe3fd1e0a225799e"
+  },
+  "source_lines": {
+    "v93_model.py": 298,
+    "v93_simple.py": 177
+  }
+}

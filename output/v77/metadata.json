@@ -1,0 +1,58 @@
+{
+  "model": "V77",
+  "forecast_year": 2024,
+  "config": {
+    "depth": 3,
+    "iterations": 250,
+    "half_life": 6.0,
+    "hurdle": false,
+    "exams": true,
+    "quiet_groups": false,
+    "hard_schedule": true
+  },
+  "selection_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022
+  ],
+  "selection_rule": "minimum mean 73-day RMSLE",
+  "selection_mean_rmsle": 0.5093864137063612,
+  "diagnostic_year": 2023,
+  "diagnostic_caveat": "Previously examined, not a blind holdout",
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "training_inputs": [
+    "processed_data/registered.csv",
+    "external_data/ege/exam_calendar.csv"
+  ],
+  "old_predictions_used": false,
+  "leaderboard_scores_used": false,
+  "external_annual_totals_used": false,
+  "public_rmsle": null,
+  "sha256": {
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "external_data/ege/exam_calendar.csv": "001f3ee45d64ff46105d0f1ec9bdf23641cbe183f02e8beac0350c3eb8cb5032",
+    "v77_model.py": "188af39c7927f11d15556241051815a14c1f250c810a7336dce20ff836982d09",
+    "/Users/vld/python/hack/evaluate_v77.py": "ad00963525ef1635257ecd7975b4c1b98ac92dfcc0ccb5ed090ca5273d99ecb0",
+    "forecast_2024_v77.csv": "644058f332206235215f081c2bca7d5230c9f4d58d3fa2679a23d4398b7853cb"
+  },
+  "test_command": ".venv/bin/python -m unittest discover -s tests -p 'test_v77_model.py' -v",
+  "tests_passed": 4,
+  "candidate_count": 36,
+  "status": "unsubmitted; modest historical improvement, Public performance unknown",
+  "target_window": "2024-06-20 through 2024-08-31 inclusive, 73 days",
+  "forecast_sum": 12297.26,
+  "exam_ablation_mean_without": 0.5253726023971561,
+  "exam_ablation_mean_with": 0.5093864137063612
+}

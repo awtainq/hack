@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-10-21T03:39:02.838770+00:00",
+  "purpose": "Final model fixed before reading V84 for post-hoc comparison",
+  "sha256": {
+    "v90_model.py": "20dfff47432a7686c1d56d3db830c4af8eb1f192fbf0191d72f4302a82b87d46",
+    "evaluate_v90.py": "76ca690839265ac83d81744a7a06b3acbb1af63436c90e111909a61f7dc43b5a",
+    "v88_model.py": "ed5349fa3e990ba4de50772e1de7c95184b857a8ba36e6d8bcf218a37fb6e02d",
+    "forecast_2024_v90.csv": "f80e506a2f1726a8f1b8fbbe33064735f58375d10063a6192077d113bc13a5dd",
+    "output/v90/selected_config.json": "350c1eae6295ef3058284dd8e02c13069d9521b1bfde3ad22eba911d841a46e4",
+    "output/v90/model.joblib": "c3802f21382f10c8dd6005599074001a7fe3b57106b2a38c45bd5d0b2f366b7a",
+    "output/v90/metadata.json": "dbb4c4b71a74bdfa6cec67d736be2cfa81a90bc2abea9c504ed78b77a9852257",
+    "output/v90/validation_protocol.json": "3d0624bd2e42ad31deeac76f0a155099b7a98bdecfb3c1a003030093bdd8e604"
+  }
+}

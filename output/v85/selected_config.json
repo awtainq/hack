@@ -1,0 +1,6 @@
+{
+  "depth": 3,
+  "iterations": 400,
+  "half_life": 3.0,
+  "ridge_penalty": null
+}

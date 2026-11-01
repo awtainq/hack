@@ -1,0 +1,8 @@
+{
+  "knots": 7,
+  "penalty": 0.03,
+  "auxiliary_weight": 0.5,
+  "normalize_volume": false,
+  "half_life": 3.0,
+  "max_iterations": 1500
+}

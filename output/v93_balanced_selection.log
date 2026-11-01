@@ -1,0 +1,65 @@
+{
+  "selection_error": 0.7522701832181349,
+  "mean_absolute_difference_per_day": 10.35776973554006,
+  "mean_absolute_percent_difference_positive_days": 12.051575814215616,
+  "total": 11035.398431515594,
+  "reference_total": 11399.999996999999,
+  "same_zero_dates": true,
+  "public_rmsle": null
+}
+Selected configurations: {
+  "bachelor": {
+    "family": "catboost",
+    "coordinates": "calendar",
+    "depth": 4,
+    "iterations": 500,
+    "half_life": 2.4219521593767075,
+    "align_history": false,
+    "level_method": "trend",
+    "level_window": 3,
+    "exams": true,
+    "knots": 9,
+    "penalty": 3.0,
+    "history_window": 0,
+    "learning_rate": 0.04503094501267006,
+    "l2_leaf_reg": 2.948883755909228,
+    "positive_only": false,
+    "loss": "RMSE"
+  },
+  "master": {
+    "family": "catboost",
+    "coordinates": "event",
+    "depth": 7,
+    "iterations": 300,
+    "half_life": 3.040427889891538,
+    "align_history": true,
+    "level_method": "trend",
+    "level_window": 3,
+    "exams": false,
+    "knots": 9,
+    "penalty": 3.0,
+    "history_window": 5,
+    "learning_rate": 0.14172324973151415,
+    "l2_leaf_reg": 2.184387671921391,
+    "positive_only": false,
+    "loss": "MAE"
+  },
+  "background": {
+    "family": "spline",
+    "coordinates": "calendar",
+    "depth": 4,
+    "iterations": 700,
+    "half_life": 2.921803597533119,
+    "align_history": false,
+    "level_method": "none",
+    "level_window": 2,
+    "exams": false,
+    "knots": 5,
+    "penalty": 0.032036899931769114,
+    "history_window": 0,
+    "learning_rate": 0.035,
+    "l2_leaf_reg": 10.0,
+    "positive_only": true,
+    "loss": "RMSE"
+  }
+}

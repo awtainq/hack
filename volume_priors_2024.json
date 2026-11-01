@@ -1,0 +1,13 @@
+{
+  "year": 2024,
+  "source": "user_provided",
+  "status": "unverified_campaign_totals",
+  "measurement_definition": "unknown: registration counts, unique applicants or enrolments not confirmed",
+  "working_assumption": "Approximate registration totals for the forecast window 2024-06-20 through 2024-08-31; use only as soft priors",
+  "relative_uncertainty": 0.15,
+  "max_prior_weight": 0.75,
+  "totals": {
+    "bachelor": 9131,
+    "master_miep": 2301
+  }
+}

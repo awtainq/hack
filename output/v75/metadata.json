@@ -1,0 +1,49 @@
+{
+  "model": "V75",
+  "forecast_year": 2024,
+  "config": {
+    "depth": 3,
+    "iterations": 500,
+    "half_life": 3.0,
+    "calibration": "none",
+    "ridge_penalty": 100.0
+  },
+  "selection_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022
+  ],
+  "selection_rule": "minimum mean full-season RMSLE",
+  "diagnostic_year": 2023,
+  "diagnostic_caveat": "Previously examined; not a blind holdout.",
+  "calibration_years": [],
+  "calibration_rows": 0,
+  "training_inputs": [
+    "processed_data/registered.csv",
+    "processed_data/included_ks.csv"
+  ],
+  "old_predictions_used": false,
+  "leaderboard_scores_used": false,
+  "external_annual_totals_used": false,
+  "public_rmsle": 0.47338,
+  "sha256": {
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "processed_data/included_ks.csv": "60803d4f0b52c7bb0492afc8d8eeff954105a80ca380d926e2b9d63acba553ee",
+    "v75_model.py": "b28f4ddcdd4317f4326f8cc409a916ebd22190505e8dbcee8861901d4700af60",
+    "/Users/vld/python/hack/evaluate_v75.py": "d0800162d9b84104f9343b78e5c7f4802753f21ae0ab2b75cccbb681b611f3da",
+    "forecast_2024_v75_clean.csv": "45f01da926c72e6f64647848c1885a982021141f123d7b336c3b89a596d70e86"
+  },
+  "checks": {
+    "fresh_default_training_byte_identical": true,
+    "saved_model_prediction_byte_identical": true,
+    "source_data_needed_at_prediction": false,
+    "rows": 73,
+    "zero_days": 13,
+    "sum": 11478.1
+  },
+  "public_score_source": "user_reported",
+  "public_score_reported_date": "2026-10-21",
+  "status": "scored; worse than V74 and V61"
+}

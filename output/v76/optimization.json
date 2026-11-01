@@ -1,0 +1,16 @@
+{
+  "2023": {
+    "success": true,
+    "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "iterations": 223,
+    "loss": 146.0240181332474,
+    "max_abs_gradient": 0.0031424322683928094
+  },
+  "2024": {
+    "success": true,
+    "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "iterations": 219,
+    "loss": 148.67919886225704,
+    "max_abs_gradient": 0.003376089722244264
+  }
+}

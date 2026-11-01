@@ -1,0 +1,46 @@
+{
+  "model": "V89: independent historical degree models + V84-guided calibration",
+  "year": 2024,
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "targets": {
+    "bachelor": "bachelor registrations",
+    "master": "master registrations",
+    "background": "college + other registrations"
+  },
+  "config": {
+    "depth": 4,
+    "iterations": 500,
+    "half_life": 3.0,
+    "correction_knots": 8,
+    "correction_penalty": 0.1
+  },
+  "reference_guided": true,
+  "independent_of_reference": false,
+  "public_rmsle": null,
+  "reference_provenance": {
+    "role": "teacher_for_target_campaign",
+    "independent_of_reference": false,
+    "reference_year": 2024,
+    "reference_rows_used": 60,
+    "file": "forecast_2024_v84.csv",
+    "sha256": "7c8fb81e477eb5deb5e0f9de2b0b7d6c2cc9d075bd680251bfee2bd6c56529e6"
+  },
+  "files_sha256": {
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "external_data/ege/exam_calendar.csv": "001f3ee45d64ff46105d0f1ec9bdf23641cbe183f02e8beac0350c3eb8cb5032",
+    "v89_degree_model.py": "284ff1eb4acbbd865d01ca014b1357580e09686cf818003feaf7f38d4cd3d40b",
+    "v88_model.py": "ed5349fa3e990ba4de50772e1de7c95184b857a8ba36e6d8bcf218a37fb6e02d",
+    "forecast_2024_v89.csv": "8510dc8397c764391bee3d982e519e6c01abb85b7dc2231d55360eeb2b65afe1",
+    "forecast_2024_v84.csv": "7c8fb81e477eb5deb5e0f9de2b0b7d6c2cc9d075bd680251bfee2bd6c56529e6"
+  }
+}

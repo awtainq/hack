@@ -1,0 +1,16 @@
+{
+  "frozen_at_utc": "2026-10-21T03:47:22.416638+00:00",
+  "purpose": "Fixed before final reference comparison",
+  "sha256": {
+    "v91_model.py": "8cf8ef37078a3190bb7b3d359997d14f906c1a0bb55c2eabd471d03ad9fedb18",
+    "/Users/vld/python/hack/evaluate_v91.py": "a5062c9e4d511f9c37b7aae773eba6d46b5aed9a550c01f79d43596d30e3e7fe",
+    "v88_model.py": "ed5349fa3e990ba4de50772e1de7c95184b857a8ba36e6d8bcf218a37fb6e02d",
+    "v90_model.py": "20dfff47432a7686c1d56d3db830c4af8eb1f192fbf0191d72f4302a82b87d46",
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "external_data/ege/exam_calendar.csv": "001f3ee45d64ff46105d0f1ec9bdf23641cbe183f02e8beac0350c3eb8cb5032",
+    "forecast_2024_v91.csv": "60bf29b16a1756b019c22a7242f8f06984d5cfffc3784c8e5351cc143e64f0b2",
+    "output/v91/selected_config.json": "9173a34cc31119ed35cf2f56e16ece1f65253d20b670f7f9a812623781fc7b1c",
+    "output/v91/metadata.json": "2b430b5ab619b5783919395c5eeadcb052a44a1f12fe7bf2ab84e060ed912f39",
+    "output/v91/model.joblib": "55767b6975b207cd5bab5c09e3337dc0525e435ad5d55143223d6cc59019ec0f"
+  }
+}

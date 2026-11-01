@@ -1,0 +1,7 @@
+{
+  "bandwidth": 16.0,
+  "penalty": 0.03,
+  "half_life": 3.0,
+  "weekday_coupling": 0.5,
+  "infer_closures": true
+}

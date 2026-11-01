@@ -1,0 +1,49 @@
+{
+  "year": 2024,
+  "config": {
+    "family": "cat",
+    "depth": 3,
+    "iterations": 300,
+    "penalty": 10.0,
+    "half_life": 3.0,
+    "zero_weight": 1.0,
+    "regime": false,
+    "fit_schedule": false
+  },
+  "input_sha256": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+  "code_sha256": "1e74ae45bb869f989c2510d0bb84adc9505f05e3cfa4b9962c69de9b58b9c64f",
+  "model_sha256": "63053dfd5b4cf4df7f0f5c4564536255b6d4ee74049941003b2b93b8b98e9d97",
+  "output_sha256": "1dbdf64eb3b0b91e0e09f36611bc1275525ca9395d5fe4eea0104c28d51bcc6d",
+  "public_score": null,
+  "source": "Direct output of one model fitted to raw registrations",
+  "training_days": 626,
+  "training_zero_days": 38,
+  "closed_dates": [
+    "2024-06-22",
+    "2024-06-23",
+    "2024-06-30",
+    "2024-07-07",
+    "2024-07-14",
+    "2024-07-21",
+    "2024-07-28",
+    "2024-08-04",
+    "2024-08-11",
+    "2024-08-18",
+    "2024-08-24",
+    "2024-08-25",
+    "2024-08-31"
+  ],
+  "total_forecast": 11742.32,
+  "selection_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022
+  ],
+  "diagnostic_year": 2023,
+  "catboost_version": "1.2.10",
+  "sklearn_version": "1.7.2",
+  "numpy_version": "2.2.6",
+  "pandas_version": "2.3.3"
+}

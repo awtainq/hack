@@ -1,0 +1,7 @@
+{
+  "leaves": 7,
+  "iterations": 250,
+  "auxiliary_weight": 0.1,
+  "half_life": 6.0,
+  "align_deadlines": true
+}

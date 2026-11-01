@@ -1,0 +1,19 @@
+1/12 {'depth': 3, 'iterations': 400, 'half_life': 3.0, 'ridge_penalty': None}: 0.51273
+2/12 {'depth': 3, 'iterations': 400, 'half_life': 3.0, 'ridge_penalty': 10.0}: 0.51440
+3/12 {'depth': 3, 'iterations': 400, 'half_life': 3.0, 'ridge_penalty': 100.0}: 0.51292
+4/12 {'depth': 3, 'iterations': 400, 'half_life': 6.0, 'ridge_penalty': None}: 0.51440
+5/12 {'depth': 3, 'iterations': 400, 'half_life': 6.0, 'ridge_penalty': 10.0}: 0.51684
+6/12 {'depth': 3, 'iterations': 400, 'half_life': 6.0, 'ridge_penalty': 100.0}: 0.51470
+7/12 {'depth': 5, 'iterations': 400, 'half_life': 3.0, 'ridge_penalty': None}: 0.51622
+8/12 {'depth': 5, 'iterations': 400, 'half_life': 3.0, 'ridge_penalty': 10.0}: 0.51768
+9/12 {'depth': 5, 'iterations': 400, 'half_life': 3.0, 'ridge_penalty': 100.0}: 0.51639
+10/12 {'depth': 5, 'iterations': 400, 'half_life': 6.0, 'ridge_penalty': None}: 0.51517
+11/12 {'depth': 5, 'iterations': 400, 'half_life': 6.0, 'ridge_penalty': 10.0}: 0.51719
+12/12 {'depth': 5, 'iterations': 400, 'half_life': 6.0, 'ridge_penalty': 100.0}: 0.51541
+ year    rmsle
+ 2017 0.442682
+ 2018 0.463785
+ 2019 0.516933
+ 2021 0.655585
+ 2022 0.484642
+ 2023 0.677087

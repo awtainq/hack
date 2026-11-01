@@ -1,0 +1,18 @@
+{
+  "validation_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "criterion": "recency-weighted mean of full 73-day RMSLE",
+  "validation_weight_half_life": 3.0,
+  "config_selection": "individual initialization, then up to four coordinate passes on total",
+  "calibration_selection": "none vs multiplier fitted on strictly earlier rolling forecasts",
+  "independent_holdout_available": false,
+  "previous_forecasts_allowed": false,
+  "leaderboard_scores_allowed": false,
+  "target_campaign_totals_allowed": false
+}

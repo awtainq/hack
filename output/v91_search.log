@@ -1,0 +1,114 @@
+Completed degree/config combinations 12/528
+Completed degree/config combinations 24/528
+Completed degree/config combinations 36/528
+Completed degree/config combinations 48/528
+Completed degree/config combinations 60/528
+Completed degree/config combinations 72/528
+Completed degree/config combinations 84/528
+Completed degree/config combinations 96/528
+Completed degree/config combinations 108/528
+Completed degree/config combinations 120/528
+Completed degree/config combinations 132/528
+Completed degree/config combinations 144/528
+Completed degree/config combinations 156/528
+Completed degree/config combinations 168/528
+Completed degree/config combinations 180/528
+Completed degree/config combinations 192/528
+Completed degree/config combinations 204/528
+Completed degree/config combinations 216/528
+Completed degree/config combinations 228/528
+Completed degree/config combinations 240/528
+Completed degree/config combinations 252/528
+Completed degree/config combinations 264/528
+Completed degree/config combinations 276/528
+Completed degree/config combinations 288/528
+Completed degree/config combinations 300/528
+Completed degree/config combinations 312/528
+Completed degree/config combinations 324/528
+Completed degree/config combinations 336/528
+Completed degree/config combinations 348/528
+Completed degree/config combinations 360/528
+Completed degree/config combinations 372/528
+Completed degree/config combinations 384/528
+Completed degree/config combinations 396/528
+Completed degree/config combinations 408/528
+Completed degree/config combinations 420/528
+Completed degree/config combinations 432/528
+Completed degree/config combinations 444/528
+Completed degree/config combinations 456/528
+Completed degree/config combinations 468/528
+Completed degree/config combinations 480/528
+Completed degree/config combinations 492/528
+Completed degree/config combinations 504/528
+Completed degree/config combinations 516/528
+Completed degree/config combinations 528/528
+ year    rmsle
+ 2017 0.462464
+ 2018 0.401234
+ 2019 0.470932
+ 2021 0.695350
+ 2022 0.514785
+ 2023 0.648461
+{
+  "degrees": {
+    "bachelor": {
+      "family": "catboost",
+      "half_life": 2.0,
+      "level_method": "mean",
+      "level_window": 3,
+      "knots": 9,
+      "penalty": 3.0,
+      "depth": 5,
+      "iterations": 700,
+      "min_leaf": 8,
+      "align_history": true,
+      "exams": true
+    },
+    "master": {
+      "family": "catboost",
+      "half_life": 6.0,
+      "level_method": "none",
+      "level_window": 3,
+      "knots": 9,
+      "penalty": 3.0,
+      "depth": 5,
+      "iterations": 700,
+      "min_leaf": 8,
+      "align_history": true,
+      "exams": true
+    },
+    "background": {
+      "family": "spline",
+      "half_life": 2.0,
+      "level_method": "trend",
+      "level_window": 5,
+      "knots": 7,
+      "penalty": 3.0,
+      "depth": 3,
+      "iterations": 700,
+      "min_leaf": 8,
+      "align_history": false,
+      "exams": false
+    }
+  },
+  "selected_indices": {
+    "bachelor": 135,
+    "master": 147,
+    "background": 22
+  },
+  "individual_initial_indices": {
+    "bachelor": 133,
+    "master": 139,
+    "background": 20
+  },
+  "validation_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "pooled_rmsle": 0.5771252286905446
+}
+2024 totals {'bachelor': 9305.867356672192, 'master': 1738.2047262749886, 'background': 1118.787075647418, 'forecast': 12162.8591585946}

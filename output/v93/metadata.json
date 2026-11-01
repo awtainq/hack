@@ -1,0 +1,56 @@
+{
+  "model": "V93 historical regressors with reference-selected hyperparameters",
+  "selection_round": 3,
+  "selection_protocol": {
+    "reference_role": "hyperparameter selection only",
+    "regressor_targets": "historical registrations only",
+    "objective": "mean absolute difference / sqrt(1 + reference), across all 73 dates",
+    "candidates_per_degree": {
+      "bachelor": 924,
+      "master": 860,
+      "background": 780
+    },
+    "independent_validation": false,
+    "teacher_independent": false,
+    "coefficient_transfer_from_teacher": false,
+    "closed_day_pattern": "candidate filter; no date-specific rules transferred to runtime",
+    "combination_search": "eight coordinate starts, then two pair-search passes with beam 64"
+  },
+  "selected_indices": {
+    "bachelor": 816,
+    "master": 608,
+    "background": 559
+  },
+  "reference": {
+    "file": "forecast_2024_v84.csv",
+    "sha256": "7c8fb81e477eb5deb5e0f9de2b0b7d6c2cc9d075bd680251bfee2bd6c56529e6"
+  },
+  "reference_used_for_hyperparameter_selection": true,
+  "teacher_targets_used_in_regressor_fit": false,
+  "independent_of_reference": false,
+  "public_rmsle": 0.39621,
+  "sha256": {
+    "v93_model.py": "07615689df8e672d9559b89e214431dcf0eb09b481bf21fce5430ec7a8f1b06e",
+    "admissions_calendar.py": "e0bed70b806a9792c000f5c9e4c0b0164df74abb111977afbe3fd1e0a225799e",
+    "/Users/vld/python/hack/tune_v93.py": "a166bc267ea261061fdcb2520197ab6c2e17e9fee87c4390c928cffa3c0cfadb",
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "external_data/ege/exam_calendar.csv": "001f3ee45d64ff46105d0f1ec9bdf23641cbe183f02e8beac0350c3eb8cb5032",
+    "forecast_2024_v93.csv": "c59a34b619b902f6dc81f0226a119fcb5f5c6818b0f979a92b27b3918c38b973",
+    "output/v93/selected_config.json": "5165389fa9698864076740d9feaa8e9bf6c0f5cadf2b78befb3a577263728e21"
+  },
+  "training_source_sha256": "82994aef95f7a626879659da5043744573dbb4a8553bfd4e7f7ebcd3f1e68b92",
+  "public_score_source": "user_reported",
+  "cli_export_update": {
+    "parameter": "--degree",
+    "values": [
+      "total",
+      "bachelor",
+      "master",
+      "background",
+      "all"
+    ],
+    "forecast_unchanged": true,
+    "weights_unchanged": true,
+    "previous_source_sha256": "82994aef95f7a626879659da5043744573dbb4a8553bfd4e7f7ebcd3f1e68b92"
+  }
+}

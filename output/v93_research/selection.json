@@ -1,0 +1,51 @@
+{
+  "bachelor": {
+    "window": 0,
+    "config": {
+      "family": "catboost",
+      "coordinates": "event",
+      "depth": 3,
+      "iterations": 700,
+      "half_life": 6.0,
+      "align_history": false,
+      "level_method": "mean",
+      "level_window": 3,
+      "exams": true,
+      "knots": 9,
+      "penalty": 3.0
+    }
+  },
+  "master": {
+    "window": 5,
+    "config": {
+      "family": "catboost",
+      "coordinates": "calendar",
+      "depth": 3,
+      "iterations": 700,
+      "half_life": 2.0,
+      "align_history": true,
+      "level_method": "none",
+      "level_window": 3,
+      "exams": false,
+      "knots": 9,
+      "penalty": 3.0
+    }
+  },
+  "background": {
+    "window": 5,
+    "config": {
+      "family": "catboost",
+      "coordinates": "calendar",
+      "depth": 3,
+      "iterations": 700,
+      "half_life": 2.0,
+      "align_history": false,
+      "level_method": "trend",
+      "level_window": 3,
+      "exams": false,
+      "knots": 9,
+      "penalty": 3.0
+    }
+  },
+  "pooled_rmsle": 0.574566035402946
+}

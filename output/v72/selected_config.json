@@ -1,0 +1,9 @@
+{
+  "depth": 3,
+  "iterations": 600,
+  "half_life": 1.5,
+  "activity_half_life": 4.0,
+  "activity_iterations": 250,
+  "activity_depth": 3,
+  "l2_leaf_reg": 10.0
+}

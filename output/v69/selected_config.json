@@ -1,0 +1,8 @@
+{
+  "depth": 5,
+  "iterations": 350,
+  "half_life": 3.0,
+  "volume_window": 3,
+  "normalize": true,
+  "infer_closures": true
+}

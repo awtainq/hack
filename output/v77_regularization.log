@@ -1,0 +1,20 @@
+25/36 {'depth': 3, 'iterations': 250, 'half_life': 3.0, 'hurdle': False, 'exams': True, 'quiet_groups': False, 'hard_schedule': False} mean=0.52963
+26/36 {'depth': 3, 'iterations': 250, 'half_life': 6.0, 'hurdle': False, 'exams': True, 'quiet_groups': False, 'hard_schedule': False} mean=0.52894
+27/36 {'depth': 3, 'iterations': 1200, 'half_life': 3.0, 'hurdle': False, 'exams': True, 'quiet_groups': False, 'hard_schedule': False} mean=0.52066
+28/36 {'depth': 3, 'iterations': 1200, 'half_life': 6.0, 'hurdle': False, 'exams': True, 'quiet_groups': False, 'hard_schedule': False} mean=0.52095
+29/36 {'depth': 3, 'iterations': 250, 'half_life': 3.0, 'hurdle': False, 'exams': False, 'quiet_groups': False, 'hard_schedule': True} mean=0.52656
+30/36 {'depth': 3, 'iterations': 250, 'half_life': 3.0, 'hurdle': False, 'exams': True, 'quiet_groups': False, 'hard_schedule': True} mean=0.51030
+31/36 {'depth': 3, 'iterations': 250, 'half_life': 6.0, 'hurdle': False, 'exams': False, 'quiet_groups': False, 'hard_schedule': True} mean=0.52537
+32/36 {'depth': 3, 'iterations': 250, 'half_life': 6.0, 'hurdle': False, 'exams': True, 'quiet_groups': False, 'hard_schedule': True} mean=0.50939
+33/36 {'depth': 3, 'iterations': 600, 'half_life': 3.0, 'hurdle': False, 'exams': False, 'quiet_groups': False, 'hard_schedule': True} mean=0.52610
+34/36 {'depth': 3, 'iterations': 600, 'half_life': 3.0, 'hurdle': False, 'exams': True, 'quiet_groups': False, 'hard_schedule': True} mean=0.51049
+35/36 {'depth': 3, 'iterations': 600, 'half_life': 6.0, 'hurdle': False, 'exams': False, 'quiet_groups': False, 'hard_schedule': True} mean=0.52587
+36/36 {'depth': 3, 'iterations': 600, 'half_life': 6.0, 'hurdle': False, 'exams': True, 'quiet_groups': False, 'hard_schedule': True} mean=0.51138
+ year    rmsle
+ 2017 0.424085
+ 2018 0.458443
+ 2019 0.522041
+ 2021 0.647651
+ 2022 0.494712
+ 2023 0.668798
+{'depth': 3, 'iterations': 250, 'half_life': 6.0, 'hurdle': False, 'exams': True, 'quiet_groups': False, 'hard_schedule': True}

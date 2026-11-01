@@ -1,0 +1,11 @@
+{
+  "family": "cat",
+  "depth": 3,
+  "iterations": 250,
+  "half_life": 6.0,
+  "use_lags": false,
+  "readout": "total",
+  "schedule": "learned",
+  "correction": false,
+  "positive_only": false
+}

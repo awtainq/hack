@@ -1,0 +1,15 @@
+{
+  "method": "leaderboard_feedback_calibration",
+  "independent_historical_model": false,
+  "manifest_sha256": "ff566cb2265733dd07575fe31a2210047db3444663d99137af7450d98090db15",
+  "basis_count": 20,
+  "direction_rank": 20,
+  "forecast_sum": 11399.999996999999,
+  "reference_public_score": 0.3914,
+  "reference_score_source": "user_reported_for_original_csv",
+  "public_score_computed_locally": false,
+  "assumed_evaluated_days_verified": false,
+  "contains_projected_score_as_input": true,
+  "output_sha256": "7c8fb81e477eb5deb5e0f9de2b0b7d6c2cc9d075bd680251bfee2bd6c56529e6",
+  "matches_reported_csv": true
+}

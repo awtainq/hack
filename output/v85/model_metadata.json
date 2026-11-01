@@ -1,0 +1,21 @@
+{
+  "model": "V85_Clean_Admissions_Model",
+  "method": "autonomous_multi_stream_gbdt",
+  "target_volume": 11400.0,
+  "total_days": 73,
+  "zero_days": 13,
+  "active_days": 60,
+  "closed_saturdays": [
+    "2024-06-22",
+    "2024-08-24",
+    "2024-08-31"
+  ],
+  "bachelor_deadline": "07-25",
+  "master_deadline": "07-29",
+  "sources_used": [
+    "/Users/vld/python/hack/processed_data/registered.csv",
+    "/Users/vld/python/hack/processed_data/included_ks.csv"
+  ],
+  "old_forecast_csvs_used": false,
+  "hardcoded_date_deltas_used": false
+}

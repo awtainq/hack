@@ -1,0 +1,139 @@
+{
+  "mode": "post_campaign_conditional_reconstruction",
+  "config": {
+    "depth": 5,
+    "iterations": 350,
+    "half_life": 3.0,
+    "volume_window": 3,
+    "normalize": true,
+    "infer_closures": true
+  },
+  "volume_inputs": {
+    "bachelor": 9265.989890289238,
+    "master_miep": 2325.144005058982
+  },
+  "conversion_audit": [
+    {
+      "year": 2019,
+      "degree": "bachelor",
+      "published": 8304,
+      "conversion": 1.022601453528541,
+      "volume_input": 8491.682470101005,
+      "conversion_years": [
+        2017,
+        2018
+      ]
+    },
+    {
+      "year": 2019,
+      "degree": "master_miep",
+      "published": 1902,
+      "conversion": 1.1236638109399486,
+      "volume_input": 2137.2085684077824,
+      "conversion_years": [
+        2017,
+        2018
+      ]
+    },
+    {
+      "year": 2021,
+      "degree": "bachelor",
+      "published": 10712,
+      "conversion": 1.028401725924345,
+      "volume_input": 11016.239288101584,
+      "conversion_years": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "year": 2021,
+      "degree": "master_miep",
+      "published": 1808,
+      "conversion": 1.1544945906593578,
+      "volume_input": 2087.326219912119,
+      "conversion_years": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "year": 2022,
+      "degree": "bachelor",
+      "published": 10219,
+      "conversion": 1.0255782639455224,
+      "volume_input": 10480.384279259293,
+      "conversion_years": [
+        2018,
+        2019,
+        2021
+      ]
+    },
+    {
+      "year": 2022,
+      "degree": "master_miep",
+      "published": 1726,
+      "conversion": 1.1234838966247978,
+      "volume_input": 1939.133205574401,
+      "conversion_years": [
+        2018,
+        2019,
+        2021
+      ]
+    },
+    {
+      "year": 2023,
+      "degree": "bachelor",
+      "published": 9789,
+      "conversion": 1.0145695014136005,
+      "volume_input": 9931.620849337734,
+      "conversion_years": [
+        2019,
+        2021,
+        2022
+      ]
+    },
+    {
+      "year": 2023,
+      "degree": "master_miep",
+      "published": 2303,
+      "conversion": 1.1011479431430298,
+      "volume_input": 2535.9437130583974,
+      "conversion_years": [
+        2019,
+        2021,
+        2022
+      ]
+    },
+    {
+      "year": 2024,
+      "degree": "bachelor",
+      "published": 9131,
+      "conversion": 1.0147836918507545,
+      "volume_input": 9265.989890289238,
+      "conversion_years": [
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "year": 2024,
+      "degree": "master_miep",
+      "published": 2301,
+      "conversion": 1.0104928314032953,
+      "volume_input": 2325.144005058982,
+      "conversion_years": [
+        2021,
+        2022,
+        2023
+      ]
+    }
+  ],
+  "sources_sha256": "95d3a1f9301642a907cd3f8c9a218eb31ac0149a7e41c92a628529f94693b531",
+  "forecast_sha256": "0708daf2e9a25c67d645d04a09dbf1b3b50ab0f3c42eb6fee2fa6bdde96a3077",
+  "public_score": null,
+  "rules_allow_post_campaign_data": "unknown_pending_user_response"
+}

@@ -1,0 +1,80 @@
+{
+  "model": "V87",
+  "forecast_year": 2024,
+  "config": {
+    "family": "cat",
+    "depth": 3,
+    "iterations": 250,
+    "half_life": 6.0,
+    "use_lags": false,
+    "readout": "total",
+    "schedule": "learned",
+    "correction": false,
+    "positive_only": false
+  },
+  "training_inputs": [
+    "processed_data/registered.csv",
+    "processed_data/included_ks.csv"
+  ],
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "calibration_years": [],
+  "selection": {
+    "config_id": 24.0,
+    "criterion": 0.5758722760336035,
+    "mean_rmsle": 0.5426125684909329
+  },
+  "validation_protocol": {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023
+    ],
+    "selection_rule": "recency-weighted mean full 73-day RMSLE",
+    "validation_weight_half_life": 3.0,
+    "independent_holdout_available": false,
+    "leaderboard_inputs_allowed": false
+  },
+  "feature_names": [
+    "position",
+    "day",
+    "month",
+    "weekday",
+    "first_day",
+    "workdays_from_start",
+    "distance_bachelor",
+    "after_bachelor",
+    "end_weekday_bachelor",
+    "distance_master",
+    "after_master",
+    "end_weekday_master",
+    "phase",
+    "saturday_slot"
+  ],
+  "public_rmsle": null,
+  "old_forecasts_used": false,
+  "leaderboard_scores_used": false,
+  "target_year_annual_totals_used": false,
+  "sha256": {
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "processed_data/included_ks.csv": "60803d4f0b52c7bb0492afc8d8eeff954105a80ca380d926e2b9d63acba553ee",
+    "v87_data.py": "6b03990e21d0ecac31ad53c95ab417a32335d7019c6d72e90d3f91eb4443b40b",
+    "v87_autoregressive.py": "ecf23cd869d16c3b2de33b114a28084f49ffb36e5595eda56520b20acc3b436c",
+    "/Users/vld/python/hack/evaluate_v87.py": "6682356459f3fa31b0e819f9cdf2c4b2d898fffbd97c87671c8a9e09a637fc74",
+    "forecast_2024_v87.csv": "9e848a891982e59a6fe6838d20d911e5038e501dfcddf7fe8867c5211846e60b"
+  },
+  "status": "research alternative; no consistent historical improvement; upload not recommended",
+  "code_note": "Additional forest learner branches were added for exploratory comparisons after the 192 CatBoost/LightGBM configurations; the selected CatBoost prediction path is unchanged."
+}

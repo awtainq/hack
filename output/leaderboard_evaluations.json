@@ -41,6 +41,86 @@
       "public_rmsle": 0.42618,
       "source": "user_reported",
       "reported_date": "2026-10-19"
+    },
+    {
+      "file": "forecast_2024_v65_standalone.csv",
+      "sha256": "07dfa10770e42766c0b79d30968b2e8c4533975a5765ff697ce046769655eb89",
+      "public_rmsle": 0.5355,
+      "source": "user_reported",
+      "reported_date": "2026-10-19"
+    },
+    {
+      "file": "forecast_2024_v74.csv",
+      "sha256": "58f5493506af6439fc2b4b2117f3be8b2cd292fd9bebecc3676ae85a5e27dbd6",
+      "public_rmsle": 0.41893,
+      "source": "user_reported",
+      "reported_date": "2026-10-20",
+      "method": "leaderboard-feedback calibration; not independently trained",
+      "alias": "forecast_2024_v74_probe_closed_saturdays.csv"
+    },
+    {
+      "file": "forecast_2024_v75_clean.csv",
+      "sha256": "45f01da926c72e6f64647848c1885a982021141f123d7b336c3b89a596d70e86",
+      "public_rmsle": 0.47338,
+      "source": "user_reported",
+      "reported_date": "2026-10-21"
+    },
+    {
+      "file": "forecast_2024_v79_sub40.csv",
+      "sha256": "666d72cbe9217b08fe2f9f504bfaac2b1584c4227209f469b952d55031640f51",
+      "public_rmsle": 0.40931,
+      "source": "user_reported",
+      "reported_date": "2026-10-21",
+      "alias": "forecast_2024.csv"
+    },
+    {
+      "file": "forecast_2024_v80.csv",
+      "sha256": "c99d675b4f55d94a2a4080a4b051078af796b080390d29baa6103b6c88a45c6c",
+      "public_rmsle": 0.41444,
+      "source": "user_reported",
+      "reported_date": "2026-10-21",
+      "alias": "v80 not strict"
+    },
+    {
+      "file": "forecast_2024_v81.csv",
+      "sha256": "36b9acf6a13ec435a873bed20a7b752f10b42e7c2e385d5e1fbde47232caacef",
+      "public_rmsle": 0.40546,
+      "source": "user_reported",
+      "reported_date": "2026-10-21",
+      "alias": "forecast_2024.csv"
+    },
+    {
+      "file": "forecast_2024_v83.csv",
+      "sha256": "87c8e4aab4d852ab22a433d7591449cd3056e051afbd82a1d5b372146caa7a54",
+      "public_rmsle": 0.4398,
+      "source": "user_reported",
+      "reported_date": "2026-10-21",
+      "alias": "forecast_2024.csv"
+    },
+    {
+      "file": "forecast_2024_v84.csv",
+      "sha256": "7c8fb81e477eb5deb5e0f9de2b0b7d6c2cc9d075bd680251bfee2bd6c56529e6",
+      "public_rmsle": 0.3914,
+      "source": "user_reported",
+      "reported_date": "2026-10-21",
+      "method": "leaderboard-feedback calibration; includes user volume normalization and projected-score input; not independently trained"
+    },
+    {
+      "file": "forecast_2024_v85_clean.csv",
+      "sha256": "9dcbb49c9eecaf266c5907fda8290667ddbe5640095a8b1c9e03fcaedb0b8a89",
+      "public_rmsle": null,
+      "source": "autonomous_model",
+      "reported_date": "2026-10-21",
+      "method": "autonomous multi-stream GBDT with separate Bachelor/Master modeling, 11400 volume scaling, and 13 strict zeros; trained exclusively from raw admissions records",
+      "alias": "forecast_2024.csv"
+    },
+    {
+      "file": "forecast_2024_v93.csv",
+      "sha256": "c59a34b619b902f6dc81f0226a119fcb5f5c6818b0f979a92b27b3918c38b973",
+      "public_rmsle": 0.39621,
+      "source": "user_reported",
+      "reported_date": "2026-10-21",
+      "method": "historical regressors with V84-selected hyperparameters"
     }
   ]
 }

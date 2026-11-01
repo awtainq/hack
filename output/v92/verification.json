@@ -1,0 +1,8 @@
+{
+  "tests_passed": 4,
+  "full_retraining_csv_byte_identical": true,
+  "saved_prediction_csv_byte_identical": true,
+  "protected_files_unchanged": true,
+  "frozen_artifacts_unchanged_after_comparison": true,
+  "public_rmsle": null
+}

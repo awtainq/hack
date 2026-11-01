@@ -1,0 +1,7 @@
+year,rmsle,role
+2017,0.5573191288043728,hyperparameter_selection
+2018,0.5242967312371118,hyperparameter_selection
+2019,0.4380160658700418,hyperparameter_selection
+2021,0.865752676625076,hyperparameter_selection
+2022,0.599045611644667,hyperparameter_selection
+2023,0.6755311304829728,diagnostic_only

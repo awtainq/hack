@@ -1,0 +1,7 @@
+{
+  "depth": 3,
+  "iterations": 500,
+  "half_life": 3.0,
+  "calibration": "none",
+  "ridge_penalty": 100.0
+}

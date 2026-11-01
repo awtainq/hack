@@ -1,0 +1,10 @@
+{
+  "family": "cat",
+  "depth": 3,
+  "iterations": 300,
+  "penalty": 10.0,
+  "half_life": 3.0,
+  "zero_weight": 1.0,
+  "regime": false,
+  "fit_schedule": false
+}

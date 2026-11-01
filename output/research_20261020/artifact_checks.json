@@ -1,0 +1,50 @@
+[
+  {
+    "file": "forecast_2024_v69_conditional.csv",
+    "sha256": "0708daf2e9a25c67d645d04a09dbf1b3b50ab0f3c42eb6fee2fa6bdde96a3077",
+    "sum": 11430.92,
+    "zero_days": 13,
+    "public_score": null,
+    "status": "research_not_recommended_for_submission"
+  },
+  {
+    "file": "forecast_2024_v69_profile.csv",
+    "sha256": "d29494bb8a3c0242119e0e5289928605bff078a465174de63c8d460d2d62820b",
+    "sum": 12131.35,
+    "zero_days": 13,
+    "public_score": null,
+    "status": "research_not_recommended_for_submission"
+  },
+  {
+    "file": "forecast_2024_v70_kernel.csv",
+    "sha256": "93af83d32d676263ad442b930f4cfc560bbb2d6df4fc643b2f54baac6909fade",
+    "sum": 12796.670000000002,
+    "zero_days": 13,
+    "public_score": null,
+    "status": "research_not_recommended_for_submission"
+  },
+  {
+    "file": "forecast_2024_v71_joint.csv",
+    "sha256": "a2c52ca1ac8fb1d1ed4f0f002bcc117e159d086644ae302709c39c0101247eb6",
+    "sum": 11195.07,
+    "zero_days": 13,
+    "public_score": null,
+    "status": "research_not_recommended_for_submission"
+  },
+  {
+    "file": "forecast_2024_v72_activity.csv",
+    "sha256": "d9bd8a750f68f6e4d317bc4d6c5c9b3edc495fe41cdbd9f1318f6e8e18be457c",
+    "sum": 12106.59,
+    "zero_days": 0,
+    "public_score": null,
+    "status": "research_not_recommended_for_submission"
+  },
+  {
+    "file": "forecast_2024_v73_coherent.csv",
+    "sha256": "1e9af83a7663aa085f20d3ba80d2c6b2ca2eb96699ac7a5280a8be0116bb398a",
+    "sum": 11837.79,
+    "zero_days": 13,
+    "public_score": null,
+    "status": "research_not_recommended_for_submission"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "config": {
+    "depth": 3,
+    "iterations": 600,
+    "half_life": 1.5,
+    "activity_half_life": 4.0,
+    "activity_iterations": 250,
+    "activity_depth": 3,
+    "l2_leaf_reg": 10.0
+  },
+  "forecast_year": 2024,
+  "has_activity_model": true,
+  "features": [
+    "day_of_campaign",
+    "day_of_month",
+    "month",
+    "weekday",
+    "first_day",
+    "days_from_bachelor_end",
+    "days_from_master_end",
+    "bachelor_end_weekday",
+    "master_end_weekday",
+    "saturday_slot",
+    "workdays_from_bachelor_end",
+    "workdays_from_master_end",
+    "workdays_from_start",
+    "phase",
+    "digital_seasons",
+    "week_of_campaign"
+  ],
+  "historical_phase_breaks": {
+    "2014:bachelor": "2014-07-25",
+    "2014:master_miep": "2014-07-25",
+    "2015:bachelor": "2015-07-24",
+    "2015:master_miep": "2015-07-24",
+    "2016:bachelor": "2016-07-26",
+    "2016:master_miep": "2016-08-10",
+    "2017:bachelor": "2017-07-26",
+    "2017:master_miep": "2017-07-28",
+    "2018:bachelor": "2018-07-26",
+    "2018:master_miep": "2018-07-25",
+    "2019:bachelor": "2019-07-26",
+    "2019:master_miep": "2019-07-24",
+    "2021:bachelor": "2021-07-29",
+    "2021:master_miep": "2021-07-29",
+    "2022:bachelor": "2022-07-26",
+    "2022:master_miep": "2022-07-29",
+    "2023:bachelor": "2023-07-25",
+    "2023:master_miep": "2023-07-28"
+  }
+}

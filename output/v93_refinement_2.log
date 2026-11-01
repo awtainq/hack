@@ -1,0 +1,73 @@
+Candidates fitted on history: 60/540
+Candidates fitted on history: 120/540
+Candidates fitted on history: 180/540
+Candidates fitted on history: 240/540
+Candidates fitted on history: 300/540
+Candidates fitted on history: 360/540
+Candidates fitted on history: 420/540
+Candidates fitted on history: 480/540
+Candidates fitted on history: 540/540
+{
+  "mean_absolute_difference_per_day": 10.100954898118003,
+  "mean_absolute_percent_difference_positive_days": 20.401543594284888,
+  "total": 11336.792349940335,
+  "reference_total": 11399.999996999999,
+  "same_zero_dates": true,
+  "public_rmsle": null
+}
+Selected configurations: {
+  "bachelor": {
+    "family": "catboost",
+    "coordinates": "calendar",
+    "depth": 4,
+    "iterations": 500,
+    "half_life": 2.4219521593767075,
+    "align_history": false,
+    "level_method": "trend",
+    "level_window": 3,
+    "exams": true,
+    "knots": 9,
+    "penalty": 3.0,
+    "history_window": 0,
+    "learning_rate": 0.04503094501267006,
+    "l2_leaf_reg": 2.948883755909228,
+    "positive_only": false,
+    "loss": "RMSE"
+  },
+  "master": {
+    "family": "catboost",
+    "coordinates": "event",
+    "depth": 7,
+    "iterations": 300,
+    "half_life": 5.9421383756558805,
+    "align_history": true,
+    "level_method": "trend",
+    "level_window": 2,
+    "exams": false,
+    "knots": 9,
+    "penalty": 3.0,
+    "history_window": 5,
+    "learning_rate": 0.0855465671302177,
+    "l2_leaf_reg": 5.465078321912813,
+    "positive_only": false,
+    "loss": "MAE"
+  },
+  "background": {
+    "family": "spline",
+    "coordinates": "calendar",
+    "depth": 4,
+    "iterations": 700,
+    "half_life": 3.5090618422234456,
+    "align_history": true,
+    "level_method": "none",
+    "level_window": 2,
+    "exams": false,
+    "knots": 7,
+    "penalty": 0.00844008611516249,
+    "history_window": 3,
+    "learning_rate": 0.035,
+    "l2_leaf_reg": 10.0,
+    "positive_only": false,
+    "loss": "RMSE"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tests_passed": 4,
+  "full_retraining_csv_byte_identical": true,
+  "saved_inference_csv_byte_identical": true,
+  "future_observations_cannot_change_forecast": true,
+  "forecast_rows": 73,
+  "protected_files_unchanged": true,
+  "frozen_artifacts_unchanged_after_comparison": true,
+  "public_rmsle": null
+}

@@ -1,0 +1,62 @@
+{
+  "degrees": {
+    "bachelor": {
+      "family": "catboost",
+      "half_life": 2.0,
+      "level_method": "mean",
+      "level_window": 3,
+      "knots": 9,
+      "penalty": 3.0,
+      "depth": 5,
+      "iterations": 700,
+      "min_leaf": 8,
+      "align_history": true,
+      "exams": true
+    },
+    "master": {
+      "family": "catboost",
+      "half_life": 6.0,
+      "level_method": "none",
+      "level_window": 3,
+      "knots": 9,
+      "penalty": 3.0,
+      "depth": 5,
+      "iterations": 700,
+      "min_leaf": 8,
+      "align_history": true,
+      "exams": true
+    },
+    "background": {
+      "family": "spline",
+      "half_life": 2.0,
+      "level_method": "trend",
+      "level_window": 5,
+      "knots": 7,
+      "penalty": 3.0,
+      "depth": 3,
+      "iterations": 700,
+      "min_leaf": 8,
+      "align_history": false,
+      "exams": false
+    }
+  },
+  "selected_indices": {
+    "bachelor": 135,
+    "master": 147,
+    "background": 22
+  },
+  "individual_initial_indices": {
+    "bachelor": 133,
+    "master": 139,
+    "background": 20
+  },
+  "validation_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "pooled_rmsle": 0.5771252286905446
+}

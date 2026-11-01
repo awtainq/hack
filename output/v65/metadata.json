@@ -24,7 +24,7 @@
   },
   "code_sha256": "04f18a659f93544fac7c88d4327fad7d30ad0914299cc56074e9526c88b8d21c",
   "output_sha256": "07dfa10770e42766c0b79d30968b2e8c4533975a5765ff697ce046769655eb89",
-  "public_score": null,
+  "public_score": 0.5355,
   "model_sha256": "5def3c59b344d540afa9fd7f39881bd504424abba49216528885a7d8013fb740",
   "catboost_version": "1.2.10",
   "numpy_version": "2.2.6",
@@ -83,5 +83,6 @@
     "prior_growth",
     "prior_was_covid"
   ],
-  "forecast_source": "Direct first output of one fitted CatBoost model; no previous forecast input"
+  "forecast_source": "Direct first output of one fitted CatBoost model; no previous forecast input",
+  "public_score_source": "user_reported"
 }

@@ -1,0 +1,24 @@
+{
+  "selection_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022
+  ],
+  "diagnostic_year": 2023,
+  "diagnostic_caveat": "2023 was previously examined and is not a blind holdout.",
+  "selection_rule": "minimum equal-weight mean full-season RMSLE",
+  "sha256": {
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "processed_data/included_ks.csv": "60803d4f0b52c7bb0492afc8d8eeff954105a80ca380d926e2b9d63acba553ee",
+    "coherent_admissions_model.py": "16bd9a99fa02ce3bd18b0335feab3af1c040317d5a5553d208fe4e998a61151a",
+    "joint_admissions_model.py": "f859041e0ee9104c687e2b3cc70c70b06ee8b62c7f0b8d34ad2fa370697727ae",
+    "activity_admissions_model.py": "c450aee2d63bc36313f261093012730e0f50f744bcf3bb8990f8da616f0b2c44",
+    "admissions_profile_model.py": "1f63f4fa22a985690c9cc3ddf33988d39771261e8d325798228f8d83787135be",
+    "/Users/vld/python/hack/evaluate_coherent_admissions.py": "51980c75d0025ce0186c941ddab9390e04af368c7d7e7fb44e1bf043a806fdbe",
+    "forecast_2024_v73_coherent.csv": "1e9af83a7663aa085f20d3ba80d2c6b2ca2eb96699ac7a5280a8be0116bb398a"
+  },
+  "public_score": null,
+  "external_volume_priors_used": false
+}

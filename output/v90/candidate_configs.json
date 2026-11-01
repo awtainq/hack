@@ -1,0 +1,722 @@
+[
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "annual",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "annual",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "annual",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "annual",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "annual",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "annual",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "annual",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "annual",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 3,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "annual",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "annual",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "annual",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "annual",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "annual",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "annual",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "annual",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "annual",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 6
+  },
+  {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 700,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 6
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 3
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 3
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 3
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 3
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 3
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 3
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 3
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 3
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 8
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 8
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 8
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 8
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 8
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 8
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 8
+  },
+  {
+    "family": "forest",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 8
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 3
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 3
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 3
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 3
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 3
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 3
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 3
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 3
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 8
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 8
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 8
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 2.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 8
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": false,
+    "min_leaf": 8
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "calendar",
+    "align_history": true,
+    "min_leaf": 8
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": false,
+    "min_leaf": 8
+  },
+  {
+    "family": "extra",
+    "depth": 3,
+    "iterations": 192,
+    "half_life": 6.0,
+    "feature_set": "exams",
+    "align_history": true,
+    "min_leaf": 8
+  }
+]

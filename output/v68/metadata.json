@@ -1,0 +1,30 @@
+{
+  "selection_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022
+  ],
+  "selection_rule": "minimum equal-weight mean RMSLE over selection years",
+  "diagnostic_year": 2023,
+  "diagnostic_caveat": "2023 was examined in earlier experiments; it is not a new blind holdout.",
+  "selected_config": {
+    "architecture": "direct",
+    "depth": 3,
+    "iterations": 400,
+    "half_life": 5.0,
+    "learning_rate": 0.04,
+    "l2_leaf_reg": 10.0,
+    "random_seed": 68001,
+    "exclude_pandemic": false
+  },
+  "source_sha256": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+  "code_sha256": "e0dcaf46b8aecd1d3e00df1996e43bee0bcb46bd26650c754983bd75ba6c5c14",
+  "forecast_sha256": "f7de11af929fd633f1bb4d41a4f9a1f2aa545de71a63504c8b5c8d4ce0c14c0a",
+  "public_score": null,
+  "external_volume_priors_used": false,
+  "evaluation_code_sha256": "a0455b7e08497989febed0070b541b780aa1fcaa776d7fc3d20248dea1bfe0b3",
+  "exploration_note": "An initial 16-configuration experiment included season_year. It was removed after inspecting earlier-year errors. Archived in exploration_with_year; 2023 was already observed.",
+  "training_dates": 730
+}

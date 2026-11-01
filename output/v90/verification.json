@@ -1,0 +1,9 @@
+{
+  "unit_tests_passed": 5,
+  "full_retraining_byte_identical": true,
+  "saved_prediction_byte_identical": true,
+  "previous_forecast_files_preserved": true,
+  "frozen_training_artifacts_unchanged_after_comparison": true,
+  "forecast_rows": 73,
+  "public_rmsle": null
+}

@@ -1,0 +1,26 @@
+{
+  "balanced": {
+    "objective": 0.7522701832181349,
+    "indices": {
+      "bachelor": 816,
+      "master": 608,
+      "background": 559
+    },
+    "mae": 10.35776973554006,
+    "mape_positive": 12.051575814215616,
+    "log_mae": 0.09059989547245817,
+    "total": 11035.398431515594
+  },
+  "log": {
+    "objective": 0.08494528788949848,
+    "indices": {
+      "bachelor": 754,
+      "master": 856,
+      "background": 318
+    },
+    "mae": 12.08448223445255,
+    "mape_positive": 11.026068201009448,
+    "log_mae": 0.08494528788949848,
+    "total": 11319.790901766242
+  }
+}

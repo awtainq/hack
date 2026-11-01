@@ -1,0 +1,782 @@
+1/96 score=0.61180 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+2/96 score=0.61440 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+3/96 score=0.62165 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+4/96 score=0.62393 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+5/96 score=0.61034 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+6/96 score=0.61276 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+7/96 score=0.61928 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+8/96 score=0.62186 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+9/96 score=0.61366 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+10/96 score=0.61871 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+11/96 score=0.62315 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+12/96 score=0.62763 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+13/96 score=0.61201 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+14/96 score=0.61566 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+15/96 score=0.62014 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+16/96 score=0.62375 {'knots': 5, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+17/96 score=0.63301 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+18/96 score=0.63490 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+19/96 score=0.64461 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+20/96 score=0.64515 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+21/96 score=0.63089 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+22/96 score=0.63224 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+23/96 score=0.64400 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+24/96 score=0.64474 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+25/96 score=0.63385 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+26/96 score=0.63872 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+27/96 score=0.64524 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+28/96 score=0.64802 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+29/96 score=0.63160 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+30/96 score=0.63451 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+31/96 score=0.64410 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+32/96 score=0.64564 {'knots': 5, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+33/96 score=0.59921 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+34/96 score=0.60159 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+35/96 score=0.61108 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+36/96 score=0.61309 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+37/96 score=0.59770 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+38/96 score=0.60010 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+39/96 score=0.60890 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+40/96 score=0.61141 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+41/96 score=0.60317 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+42/96 score=0.60791 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+43/96 score=0.61469 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+44/96 score=0.61883 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+45/96 score=0.60143 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+46/96 score=0.60503 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+47/96 score=0.61186 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+48/96 score=0.61538 {'knots': 7, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+49/96 score=0.61793 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+50/96 score=0.62005 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+51/96 score=0.63185 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+52/96 score=0.63282 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+53/96 score=0.61565 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+54/96 score=0.61737 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+55/96 score=0.63101 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+56/96 score=0.63237 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+57/96 score=0.61895 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+58/96 score=0.62395 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+59/96 score=0.63259 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+60/96 score=0.63573 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+61/96 score=0.61653 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+62/96 score=0.61977 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+63/96 score=0.63131 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+64/96 score=0.63349 {'knots': 7, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+65/96 score=0.59500 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+66/96 score=0.59724 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+67/96 score=0.60782 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+68/96 score=0.60969 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+69/96 score=0.59359 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+70/96 score=0.59593 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+71/96 score=0.60590 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+72/96 score=0.60831 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+73/96 score=0.59938 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+74/96 score=0.60398 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+75/96 score=0.61212 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+76/96 score=0.61612 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+77/96 score=0.59759 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+78/96 score=0.60120 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+79/96 score=0.60947 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+80/96 score=0.61299 {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+81/96 score=0.60769 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+82/96 score=0.60989 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+83/96 score=0.62326 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+84/96 score=0.62449 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+85/96 score=0.60529 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+86/96 score=0.60725 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+87/96 score=0.62225 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+88/96 score=0.62405 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+89/96 score=0.60967 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+90/96 score=0.61462 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+91/96 score=0.62467 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+92/96 score=0.62795 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': False, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+93/96 score=0.60722 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+94/96 score=0.61063 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+95/96 score=0.62332 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': None, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+96/96 score=0.62590 {'knots': 9, 'penalty': 0.3, 'auxiliary_weight': 0.2, 'half_life': 6.0, 'volume_trend': True, 'channels': True, 'calibration_penalty': 100.0, 'max_iterations': 1200}
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: divide by zero encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: overflow encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+/Users/vld/python/hack/v86_volume_shape.py:129: RuntimeWarning: invalid value encountered in matmul
+  matrix[start:start + self.spline_size, start:start + self.spline_size] += 10 * difference.T @ difference
+ year    rmsle
+ 2017 0.438797
+ 2018 0.511747
+ 2019 0.525244
+ 2021 0.707668
+ 2022 0.519198
+ 2023 0.672359
+Selected: {'knots': 9, 'penalty': 0.03, 'auxiliary_weight': 0.2, 'half_life': 3.0, 'volume_trend': True, 'channels': False, 'calibration_penalty': None, 'max_iterations': 1200}

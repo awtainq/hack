@@ -1,0 +1,19 @@
+{
+  "validation_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "criterion": "pooled recency-weighted mean squared log1p error over complete campaigns",
+  "validation_weight_half_life": 3.0,
+  "selection": "individual initialization then up to six coordinate passes on total",
+  "independent_holdout_available": false,
+  "previous_forecast_inputs": false,
+  "leaderboard_inputs": false,
+  "target_year_campaign_totals": false,
+  "candidates_per_degree": 176,
+  "level_definition": "mean weekday log1p registrations per historical season"
+}

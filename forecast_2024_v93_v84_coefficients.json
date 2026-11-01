@@ -1,0 +1,21 @@
+{
+  "method": "nonnegative_stream_multipliers_fit_to_v84",
+  "reference_role": "teacher forecast for coefficient selection",
+  "independent_validation": false,
+  "streams": {
+    "bachelor": 1.0357535468277232,
+    "master": 1.0742862605709582,
+    "background": 0.8771988592061601
+  },
+  "ridge_to_one": 0.001,
+  "sum_constraint": 11399.999996999999,
+  "metrics_vs_v84": {
+    "sum": 11399.999996999999,
+    "MAE_vs_V84": 10.485266990704263,
+    "RMSLE_vs_V84": 0.1396320265498106,
+    "balanced_MAE_vs_V84": 0.7609456546363317
+  },
+  "reference_public_score": 0.3914,
+  "reference_score_source": "user-reported; not recomputed here",
+  "output_sha256": "742481ad61964515756ebe7e908c712aa4cde0188734555b22d17b7bee061660"
+}

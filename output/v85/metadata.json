@@ -1,0 +1,53 @@
+{
+  "model": "V85",
+  "training_inputs": [
+    "processed_data/registered.csv",
+    "processed_data/included_ks.csv"
+  ],
+  "config": {
+    "depth": 3,
+    "iterations": 400,
+    "half_life": 3.0,
+    "ridge_penalty": null
+  },
+  "selection_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022
+  ],
+  "selection_mean_rmsle": 0.5127253540324643,
+  "diagnostic_year": 2023,
+  "diagnostic_caveat": "Examined before, not a blind holdout",
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "calibration_years": [],
+  "learned_readout_coefficients": [
+    0.0,
+    0.0
+  ],
+  "old_forecasts_used": false,
+  "leaderboard_scores_used": false,
+  "target_year_annual_total_used": false,
+  "public_rmsle": null,
+  "sha256": {
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "processed_data/included_ks.csv": "60803d4f0b52c7bb0492afc8d8eeff954105a80ca380d926e2b9d63acba553ee",
+    "v85_historical_model.py": "3eb6f70519882733822fc9a7ef3a0da8c9375b9c9d4c714a0272b5dc61a1e424",
+    "/Users/vld/python/hack/evaluate_v85.py": "9cfe72beaf2d228608b5f1e67261bdbf9987960c6784b35158b768290afd35cf",
+    "forecast_2024_v85_historical.csv": "7b2aa410711971cb39a458050696a227d640b1f170b230ae5c07f0c426e232db"
+  },
+  "forecast_year": 2024,
+  "tests_passed": 4,
+  "selected_train_and_predict_byte_identical": true
+}

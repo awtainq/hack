@@ -1,0 +1,28 @@
+{
+  "comparison_target": "V84 predictions, not observed registrations",
+  "reference_total": 11399.999996999999,
+  "zero_dates": 13,
+  "degree_totals_after_calibration": {
+    "bachelor": 8521.942001630274,
+    "master": 2076.8135387331813,
+    "background": 785.5022290192375
+  },
+  "comparisons": {
+    "historical_models_total": {
+      "total": 12355.083450770553,
+      "total_difference": 955.0834537705528,
+      "mean_absolute_difference_per_day": 22.62595668539136,
+      "mean_absolute_percent_difference_positive_days": 27.927465609075696,
+      "max_absolute_difference": 126.67191068457475,
+      "same_zero_dates": true
+    },
+    "v89": {
+      "total": 11384.257769382693,
+      "total_difference": -15.742227617306263,
+      "mean_absolute_difference_per_day": 7.1835828121918315,
+      "mean_absolute_percent_difference_positive_days": 6.260410032669691,
+      "max_absolute_difference": 69.37120909464329,
+      "same_zero_dates": true
+    }
+  }
+}

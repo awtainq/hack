@@ -1,0 +1,106 @@
+{
+  "model": "V90 independently trained degree models",
+  "forecast_year": 2024,
+  "selection": {
+    "degrees": {
+      "bachelor": {
+        "family": "catboost",
+        "depth": 3,
+        "iterations": 700,
+        "half_life": 2.0,
+        "feature_set": "exams",
+        "align_history": false,
+        "min_leaf": 6
+      },
+      "master": {
+        "family": "catboost",
+        "depth": 5,
+        "iterations": 700,
+        "half_life": 6.0,
+        "feature_set": "exams",
+        "align_history": true,
+        "min_leaf": 6
+      },
+      "background": {
+        "family": "extra",
+        "depth": 3,
+        "iterations": 192,
+        "half_life": 6.0,
+        "feature_set": "exams",
+        "align_history": false,
+        "min_leaf": 8
+      }
+    },
+    "selected_indices": {
+      "bachelor": 16,
+      "master": 47,
+      "background": 78
+    },
+    "individual_initial_indices": {
+      "bachelor": 4,
+      "master": 29,
+      "background": 1
+    },
+    "validation_years": [
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023
+    ],
+    "calibration": "none",
+    "uncalibrated_criterion": 0.5686099838653831,
+    "calibration_comparable_criterion": {
+      "none": 0.5800763169883306,
+      "historical": 0.5801253332641997
+    }
+  },
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "scale": 1.0,
+  "scale_provenance": {
+    "method": "none",
+    "years": []
+  },
+  "validation_protocol": {
+    "validation_years": [
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023
+    ],
+    "criterion": "recency-weighted mean of full 73-day RMSLE",
+    "validation_weight_half_life": 3.0,
+    "config_selection": "individual initialization, then up to four coordinate passes on total",
+    "calibration_selection": "none vs multiplier fitted on strictly earlier rolling forecasts",
+    "independent_holdout_available": false,
+    "previous_forecasts_allowed": false,
+    "leaderboard_scores_allowed": false,
+    "target_campaign_totals_allowed": false
+  },
+  "previous_forecasts_used": false,
+  "leaderboard_scores_used": false,
+  "target_campaign_totals_used": false,
+  "public_rmsle": null,
+  "files_sha256": {
+    "v90_model.py": "20dfff47432a7686c1d56d3db830c4af8eb1f192fbf0191d72f4302a82b87d46",
+    "/Users/vld/python/hack/evaluate_v90.py": "76ca690839265ac83d81744a7a06b3acbb1af63436c90e111909a61f7dc43b5a",
+    "v88_model.py": "ed5349fa3e990ba4de50772e1de7c95184b857a8ba36e6d8bcf218a37fb6e02d",
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "external_data/ege/exam_calendar.csv": "001f3ee45d64ff46105d0f1ec9bdf23641cbe183f02e8beac0350c3eb8cb5032",
+    "output/v90/selected_config.json": "350c1eae6295ef3058284dd8e02c13069d9521b1bfde3ad22eba911d841a46e4",
+    "forecast_2024_v90.csv": "f80e506a2f1726a8f1b8fbbe33064735f58375d10063a6192077d113bc13a5dd"
+  }
+}

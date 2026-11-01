@@ -1,0 +1,55 @@
+{
+  "degrees": {
+    "bachelor": {
+      "family": "catboost",
+      "depth": 3,
+      "iterations": 700,
+      "half_life": 2.0,
+      "feature_set": "exams",
+      "align_history": false,
+      "min_leaf": 6
+    },
+    "master": {
+      "family": "catboost",
+      "depth": 5,
+      "iterations": 700,
+      "half_life": 6.0,
+      "feature_set": "exams",
+      "align_history": true,
+      "min_leaf": 6
+    },
+    "background": {
+      "family": "extra",
+      "depth": 3,
+      "iterations": 192,
+      "half_life": 6.0,
+      "feature_set": "exams",
+      "align_history": false,
+      "min_leaf": 8
+    }
+  },
+  "selected_indices": {
+    "bachelor": 16,
+    "master": 47,
+    "background": 78
+  },
+  "individual_initial_indices": {
+    "bachelor": 4,
+    "master": 29,
+    "background": 1
+  },
+  "validation_years": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "calibration": "none",
+  "uncalibrated_criterion": 0.5686099838653831,
+  "calibration_comparable_criterion": {
+    "none": 0.5800763169883306,
+    "historical": 0.5801253332641997
+  }
+}

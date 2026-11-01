@@ -1,0 +1,10 @@
+{
+  "family": "forest",
+  "trees": 256,
+  "min_leaf": 6,
+  "feature_fraction": 1.0,
+  "half_life": 3.0,
+  "annual_context": true,
+  "schedule": "learned",
+  "exams": true
+}

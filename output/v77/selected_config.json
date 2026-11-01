@@ -1,0 +1,9 @@
+{
+  "depth": 3,
+  "iterations": 250,
+  "half_life": 6.0,
+  "hurdle": false,
+  "exams": true,
+  "quiet_groups": false,
+  "hard_schedule": true
+}

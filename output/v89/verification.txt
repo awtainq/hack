@@ -1,0 +1,5 @@
+5 unit tests passed.
+Full retraining and saved prediction are byte-identical to the delivered V89 CSV.
+Saved prediction requires neither raw CSV nor reference CSV.
+73 unique dates; three components reconcile to forecast.
+Original V84 hash unchanged; primary forecast not overwritten.

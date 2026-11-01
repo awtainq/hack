@@ -1,0 +1,34 @@
+{
+  "config": {
+    "architecture": "direct",
+    "depth": 3,
+    "iterations": 400,
+    "half_life": 5.0,
+    "learning_rate": 0.04,
+    "l2_leaf_reg": 10.0,
+    "random_seed": 68001
+  },
+  "forecast_year": 2024,
+  "has_classifier": false,
+  "features": [
+    "campaign_day",
+    "day_of_month",
+    "week_of_campaign",
+    "weekday",
+    "month",
+    "season_year",
+    "pandemic_season",
+    "first_campaign_day",
+    "first_week",
+    "days_until_end",
+    "saturday_position",
+    "days_from_bachelor_deadline",
+    "after_bachelor_deadline",
+    "bachelor_deadline_weekday",
+    "workdays_from_bachelor_deadline",
+    "days_from_master_deadline",
+    "after_master_deadline",
+    "master_deadline_weekday",
+    "workdays_from_master_deadline"
+  ]
+}

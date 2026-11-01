@@ -1,0 +1,64 @@
+{
+  "config": {
+    "leaves": 7,
+    "iterations": 500,
+    "auxiliary_weight": 0.1,
+    "half_life": 3.0,
+    "closure_policy": "learned"
+  },
+  "year": 2024,
+  "offset": [
+    4.683555449157395,
+    3.8306166920855724,
+    1.711484389192157,
+    3.4047945252016603,
+    1.8410358025103108,
+    -2.23627526854378,
+    1.6639439000918448,
+    1.8932953461428172,
+    -2.697856428365876,
+    0.7174030853098491,
+    -0.43385048519431907,
+    -4.1054129979981475
+  ],
+  "closure_rates": {
+    "first": 0.7413619307002451,
+    "late_august": 1.0,
+    "august": 0.3844643894570076,
+    "regular": 0.0
+  },
+  "streams": [
+    "bachelor:budget",
+    "bachelor:contract",
+    "bachelor:unknown",
+    "master_miep:budget",
+    "master_miep:contract",
+    "master_miep:unknown",
+    "college:budget",
+    "college:contract",
+    "college:unknown",
+    "postgraduate:budget",
+    "postgraduate:contract",
+    "postgraduate:unknown"
+  ],
+  "features": [
+    "day_of_campaign",
+    "day_of_month",
+    "month",
+    "weekday",
+    "first_day",
+    "days_from_bachelor_end",
+    "days_from_master_end",
+    "bachelor_end_weekday",
+    "master_end_weekday",
+    "saturday_slot",
+    "workdays_from_bachelor_end",
+    "workdays_from_master_end",
+    "workdays_from_start",
+    "phase",
+    "digital_seasons",
+    "week_of_campaign",
+    "degree",
+    "funding"
+  ]
+}

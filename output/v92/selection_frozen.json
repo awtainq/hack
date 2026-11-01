@@ -1,0 +1,15 @@
+{
+  "frozen_at_utc": "2026-10-21T03:55:29.912827+00:00",
+  "purpose": "Fixed before post-hoc reference comparison",
+  "sha256": {
+    "admissions_calendar.py": "e0bed70b806a9792c000f5c9e4c0b0164df74abb111977afbe3fd1e0a225799e",
+    "v92_model.py": "32199f3ef12ca7f75efee27808798a03ccbcb745f7b39ab36586f16773dc748e",
+    "/Users/vld/python/hack/evaluate_v92.py": "d96aef9732005d388552b9fedcda2cb6bfc2dada87a8b5023860505b3ff3cc99",
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "external_data/ege/exam_calendar.csv": "001f3ee45d64ff46105d0f1ec9bdf23641cbe183f02e8beac0350c3eb8cb5032",
+    "forecast_2024_v92.csv": "4938fe04c5bcba150752880715d9bfb88d3398747855b96156ef5904da913c0c",
+    "output/v92/selected_config.json": "b58b52e050b66d9da93e12d92b8d64f36d68d68a7bc0b58848a08c4f83aa0c98",
+    "output/v92/metadata.json": "668e03a976c71500bd226729e3320111daa2ae5da66da9f81c13002811b6a83e",
+    "output/v92/model.joblib": "e3fa9cd4b4bd0f16f79450a6157e35f512571fefb1642bcce0ebd1f26ccaf73d"
+  }
+}

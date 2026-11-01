@@ -1,0 +1,9 @@
+{
+  "selection_error": 0.7522701832181349,
+  "mean_absolute_difference_per_day": 10.35776973554006,
+  "mean_absolute_percent_difference_positive_days": 12.051575814215616,
+  "total": 11035.398431515594,
+  "reference_total": 11399.999996999999,
+  "same_zero_dates": true,
+  "public_rmsle": 0.39621
+}

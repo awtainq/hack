@@ -1,0 +1,74 @@
+{
+  "model": "V86",
+  "forecast_year": 2024,
+  "config": {
+    "knots": 9,
+    "penalty": 0.03,
+    "auxiliary_weight": 0.2,
+    "half_life": 3.0,
+    "volume_trend": true,
+    "channels": false,
+    "calibration_penalty": null,
+    "max_iterations": 1200
+  },
+  "training_inputs": [
+    "processed_data/registered.csv"
+  ],
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "calibration_years": [],
+  "learned_log_bias": 0.0,
+  "forecast_volumes_before_bias": {
+    "bachelor_other": 10105.162917098927,
+    "bachelor_gov": 0.0,
+    "master": 2155.8526784562123,
+    "college": 805.4355071388289,
+    "other_degree": 280.6933156285324
+  },
+  "selection": {
+    "config_id": 68.0,
+    "criterion": 0.5935864530846533,
+    "mean_rmsle": 0.5625020925462254
+  },
+  "validation_protocol": {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023
+    ],
+    "selection_rule": "recency-weighted mean full 73-day RMSLE",
+    "validation_weight_half_life": 3.0,
+    "independent_holdout_available": false,
+    "leaderboard_inputs_allowed": false
+  },
+  "optimization": {
+    "success": true,
+    "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "iterations": 133,
+    "loss": 59.27952440268454,
+    "max_abs_gradient": 0.00023608114195516894
+  },
+  "public_rmsle": null,
+  "old_forecasts_used": false,
+  "leaderboard_scores_used": false,
+  "target_year_annual_totals_used": false,
+  "sha256": {
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "v86_volume_shape.py": "f0608fb29733e5077f29ee9f19c6e276908ff1fe81b8edf940a2d726fe9e0b89",
+    "/Users/vld/python/hack/evaluate_v86.py": "44b86f2363f14e04991e47b63459194fc020da0e5931305644bd619cc5b85dfb",
+    "forecast_2024_v86.csv": "a03ca5dd095010b98c1a99c2b459ba838f3ff5be3cdc0a7c8c9e8ab7eacd3c3e"
+  },
+  "status": "research alternative; no consistent historical improvement; upload not recommended"
+}

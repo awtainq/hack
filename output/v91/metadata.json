@@ -1,0 +1,114 @@
+{
+  "model": "V91 historical level + daily profile",
+  "selection": {
+    "degrees": {
+      "bachelor": {
+        "family": "catboost",
+        "half_life": 2.0,
+        "level_method": "mean",
+        "level_window": 3,
+        "knots": 9,
+        "penalty": 3.0,
+        "depth": 5,
+        "iterations": 700,
+        "min_leaf": 8,
+        "align_history": true,
+        "exams": true
+      },
+      "master": {
+        "family": "catboost",
+        "half_life": 6.0,
+        "level_method": "none",
+        "level_window": 3,
+        "knots": 9,
+        "penalty": 3.0,
+        "depth": 5,
+        "iterations": 700,
+        "min_leaf": 8,
+        "align_history": true,
+        "exams": true
+      },
+      "background": {
+        "family": "spline",
+        "half_life": 2.0,
+        "level_method": "trend",
+        "level_window": 5,
+        "knots": 7,
+        "penalty": 3.0,
+        "depth": 3,
+        "iterations": 700,
+        "min_leaf": 8,
+        "align_history": false,
+        "exams": false
+      }
+    },
+    "selected_indices": {
+      "bachelor": 135,
+      "master": 147,
+      "background": 22
+    },
+    "individual_initial_indices": {
+      "bachelor": 133,
+      "master": 139,
+      "background": 20
+    },
+    "validation_years": [
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023
+    ],
+    "pooled_rmsle": 0.5771252286905446
+  },
+  "protocol": {
+    "validation_years": [
+      2017,
+      2018,
+      2019,
+      2021,
+      2022,
+      2023
+    ],
+    "criterion": "pooled recency-weighted mean squared log1p error over complete campaigns",
+    "validation_weight_half_life": 3.0,
+    "selection": "individual initialization then up to six coordinate passes on total",
+    "independent_holdout_available": false,
+    "previous_forecast_inputs": false,
+    "leaderboard_inputs": false,
+    "target_year_campaign_totals": false,
+    "candidates_per_degree": 176,
+    "level_definition": "mean weekday log1p registrations per historical season"
+  },
+  "training_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "previous_forecasts_used": false,
+  "leaderboard_scores_used": false,
+  "target_year_annual_totals_used": false,
+  "public_rmsle": null,
+  "future_log_levels": {
+    "bachelor": 3.680391264136904,
+    "master": 0.0,
+    "background": 3.0230596779757937
+  },
+  "files_sha256": {
+    "v91_model.py": "8cf8ef37078a3190bb7b3d359997d14f906c1a0bb55c2eabd471d03ad9fedb18",
+    "/Users/vld/python/hack/evaluate_v91.py": "a5062c9e4d511f9c37b7aae773eba6d46b5aed9a550c01f79d43596d30e3e7fe",
+    "v88_model.py": "ed5349fa3e990ba4de50772e1de7c95184b857a8ba36e6d8bcf218a37fb6e02d",
+    "v90_model.py": "20dfff47432a7686c1d56d3db830c4af8eb1f192fbf0191d72f4302a82b87d46",
+    "processed_data/registered.csv": "ca39d6bfd187b4e610f2eb9279a4f08c970baf2e96f3ec08571377e8c862b3a4",
+    "external_data/ege/exam_calendar.csv": "001f3ee45d64ff46105d0f1ec9bdf23641cbe183f02e8beac0350c3eb8cb5032",
+    "forecast_2024_v91.csv": "60bf29b16a1756b019c22a7242f8f06984d5cfffc3784c8e5351cc143e64f0b2",
+    "output/v91/selected_config.json": "9173a34cc31119ed35cf2f56e16ece1f65253d20b670f7f9a812623781fc7b1c"
+  }
+}
